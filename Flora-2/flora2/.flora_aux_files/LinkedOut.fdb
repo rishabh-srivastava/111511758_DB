@@ -1,0 +1,50 @@
+#include "flrheader.flh"
+#define FLORA_COMPILATION_ID 1
+
+
+FLORA_THIS_WORKSPACE(tblflapply)(user,u1,'Alice',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u1,'Stony Brook',20150101,20150930,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u1,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u1,'Instructor',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(user,u2,'Bob',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u2,'Stony Brook',20150801,20151231,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u2,'Microsoft',20160101,20161231,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u2,'Programming',__newcontextvar5).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u2,'Boxing',__newcontextvar6).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u2,u1,'Programming',__newcontextvar5).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u2,u1,'Instructor',__newcontextvar6).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u2,u3,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(user,u3,'Carol',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u3,'IBM',20150601,20151231,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u3,'Managenemt',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u3,u1,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u3,u2,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(user,u4,'Dave',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u4,'IBM',20150601,20150715,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u4,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u4,u3,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(user,u5,'Eve',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u5,'Google',20140401,20160201,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u5,'Paypal',20100105,20140301,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u5,u6,'Schmoozing',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(user,u6,'Frank',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u6,'Google',20140601,20160101,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u6,'EBay',20061205,20140520,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u6,'Schmoozing',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u6,u5,'Schmoozing',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u6,u5,'Quality Assurance',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(user,u7,'Mallory',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u7,'Oracle',20100830,20160330,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u7,'Paypal',20100105,20140301,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u7,'EBay',20061205,20071220,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u7,'Programming',__newcontextvar5).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u7,'Basketball',__newcontextvar6).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u7,u5,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u7,u6,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u7,u7,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(user,u8,'Thor',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,u8,'Asgard',101,99991231,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u8,'Programming',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u8,'Instructor',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,u8,'Hammer Wielding',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,u8,u4,'Programming',__newcontextvar3).

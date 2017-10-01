@@ -1,0 +1,19 @@
+#include "flrheader.flh"
+#include "flr_fld_standardtypes.flh"
+
+FLORA_THIS_WORKSPACE(tblflapply)(indirectly_endorsed,__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Q3',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q1',__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Q2',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q7',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)(endorse,__fldnewvar1,__fldnewvar2,__fldnewvar3,__fldnewvar4).
+FLORA_THIS_WORKSPACE(tblflapply)(skill,__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Q4_alt2',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)(experience,__fldnewvar1,__fldnewvar2,__fldnewvar3,__fldnewvar4,__fldnewvar5).
+FLORA_THIS_WORKSPACE(tblflapply)(directly_endorsed,__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Q4',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q4_alt',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q5',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q6',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)(user,__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(avgNumberOfEndorsements,__fldnewvar1,__fldnewvar2).

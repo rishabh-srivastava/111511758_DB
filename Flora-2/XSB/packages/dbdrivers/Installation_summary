@@ -1,0 +1,18 @@
+
+  ODBC support:                                   yes
+  ODBC library directory:                         
+  ODBC C Flags:                                   
+  ODBC Loader Flags:                              
+
+  MySQL support:                                  yes
+  MySQL library directory:                        /usr/lib/x86_64-linux-gnu
+  MySQL header directory:                         /usr/include/mysql
+  MySQL C Flags:                                  -I/usr/include/mysql 
+  MySQL Loader Flags:                             -L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -ldl
+
+  MySQL Embedded Server support:                  yes
+  MySQL Embedded Server library directory:        /usr/lib/x86_64-linux-gnu
+  MySQL Embedded Server header directory:         /usr/include/mysql
+  MySQL Embedded Server C Flags:                  -g -W -Wall -I/usr/include/mysql -g -O2
+  MySQL Embedded Server Loader Flags:             -L/usr/lib/x86_64-linux-gnu -lmysqld -lpthread -lz -lm -lrt -lcrypt -ldl -laio -llz4 -lnuma 
+

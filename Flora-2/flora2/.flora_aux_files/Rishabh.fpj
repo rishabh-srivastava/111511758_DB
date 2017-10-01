@@ -1,0 +1,5 @@
+%% #include info for source file: C:\Users\Rishabh\Flora-2\flora2\Rishabh.flr
+
+
+:-(multifile(/('_$_$_flora''include_prj_info',2))).
+'_$_$_flora''include_prj_info'('C:\\Users\\Rishabh\\Flora-2\\flora2\\Rishabh.flr','(runtime)').

@@ -1,0 +1,41 @@
+flora_symbol('Ohay',0,\@,317,76,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('--- Query 5: endorsement by a co-worker ---',0,\@,1355,224,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Hardware',0,\@,371,83,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Alf',0,\@,171,58,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol(industry,2,\@,67,44,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Automotive',0,\@,224,65,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('--- Query 7: endorsement by a co-worker ---',0,\@,1373,227,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Tfos',0,\@,325,78,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('QUE',0,\@,19,37,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Software',0,\@,72,44,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Gnow',0,\@,390,85,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Q1',3,\@,929,162,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Muck Lain',0,\@,436,91,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Anne Smyle',0,\@,40,40,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('--- Query 1: endorsement by a co-worker ---',0,\@,1266,209,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Elpa',0,\@,110,48,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol(person,1,\@,28,38,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Bill Pubic',0,\@,285,72,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('May Serge',0,\@,182,59,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('RHC',0,\@,88,46,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Q7',2,\@,1181,197,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Ydex',0,\@,232,66,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Bill Doe',0,\@,35,39,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('--- Query 4: endorsement by a co-worker ---',0,\@,1322,218,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol(writeln,1,'\\io',1264,209,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Q3',3,\@,963,168,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Bill Public',0,\@,200,62,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Accounting',0,\@,80,45,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Q6',2,\@,1035,185,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Q4',1,\@,989,179,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Search',0,\@,309,75,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Elgog',0,\@,99,47,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('--- Query 6: endorsement by a co-worker ---',0,\@,1337,221,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol(company,3,\@,17,37,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Q2',1,\@,951,165,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Steve Lamp',0,\@,150,54,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Q5',2,\@,1111,193,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Bill Seth',0,\@,137,52,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('John Smyth',0,\@,30,38,function_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol('Owns',3,\@,83,46,predicate_symbol,nontransactional_symbol,'Rishabh.flr').
+flora_symbol(board,2,\@,43,41,predicate_symbol,nontransactional_symbol,'Rishabh.flr').

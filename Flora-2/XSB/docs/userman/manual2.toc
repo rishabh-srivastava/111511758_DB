@@ -1,0 +1,132 @@
+\contentsline {chapter}{\numberline {1}XSB-ODBC Interface}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Using the Interface}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Connecting to and Disconnecting from Data Sources}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Accessing Tables in Data Sources Using SQL}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Cursor Management}{5}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Accessing Tables in Data Sources through the Relation Level}{6}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Using the Relation Level Interface}{6}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Handling NULL values}{8}{subsection.1.2.6}
+\contentsline {subsubsection}{Queries}{8}{section*.2}
+\contentsline {subsubsection}{Query Results}{9}{section*.3}
+\contentsline {subsubsection}{Inserts}{9}{section*.4}
+\contentsline {subsubsection}{Deletes}{9}{section*.5}
+\contentsline {subsection}{\numberline {1.2.7}The View Level Interface}{10}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.8}Insertions and Deletions of Rows through the Relational Level}{13}{subsection.1.2.8}
+\contentsline {subsection}{\numberline {1.2.9}Access to Data Dictionaries}{14}{subsection.1.2.9}
+\contentsline {subsection}{\numberline {1.2.10}Other Database Operations}{15}{subsection.1.2.10}
+\contentsline {subsection}{\numberline {1.2.11}Transaction Management}{15}{subsection.1.2.11}
+\contentsline {subsection}{\numberline {1.2.12}Interface Flags}{16}{subsection.1.2.12}
+\contentsline {subsection}{\numberline {1.2.13}Datalog}{17}{subsection.1.2.13}
+\contentsline {section}{\numberline {1.3}Error messages}{17}{section.1.3}
+\contentsline {section}{\numberline {1.4}Notes on specific ODBC drivers}{18}{section.1.4}
+\contentsline {chapter}{\numberline {2}The New XSB-Database Interface}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Configuring the Interface}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}Using the Interface}{22}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Connecting to and Disconnecting from Databases}{22}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Querying Databases}{24}{subsection.2.3.2}
+\contentsline {paragraph}{Storing and retrieving terms and NULL values.}{25}{section*.6}
+\contentsline {section}{\numberline {2.4}Error Handling}{26}{section.2.4}
+\contentsline {section}{\numberline {2.5}Notes on specific drivers}{28}{section.2.5}
+\contentsline {subsubsection}{ODBC Driver}{28}{section*.7}
+\contentsline {subsubsection}{MySQL Driver}{28}{section*.8}
+\contentsline {subsubsection}{Driver for the Embedded MySQL Server}{28}{section*.9}
+\contentsline {chapter}{\numberline {3}Libraries from Other Prologs}{30}{chapter.3}
+\contentsline {section}{\numberline {3.1}AVL Trees}{30}{section.3.1}
+\contentsline {section}{\numberline {3.2}Ordered Sets: {\tt ordsets.P}}{31}{section.3.2}
+\contentsline {section}{\numberline {3.3}Unweighted Graphs: {\tt ugraphs.P}}{31}{section.3.3}
+\contentsline {section}{\numberline {3.4}Heaps: {\tt heaps.P}}{32}{section.3.4}
+\contentsline {chapter}{\numberline {4}Introduction to XSB Packages}{33}{chapter.4}
+\contentsline {chapter}{\numberline {5}Wildcard Matching}{34}{chapter.5}
+\contentsline {chapter}{\numberline {6}pcre: Pattern Matching and Substitution Using PCRE}{36}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{36}{section.6.1}
+\contentsline {section}{\numberline {6.2}Pattern matching}{36}{section.6.2}
+\contentsline {section}{\numberline {6.3}String Substitution}{37}{section.6.3}
+\contentsline {section}{\numberline {6.4}Installation and configuration}{38}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Configuring for Linux, Mac, and other Unices}{38}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Configuring for Windows}{39}{subsection.6.4.2}
+\contentsline {chapter}{\numberline {7}{\tt curl}: The XSB Internet Access Package}{40}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{40}{section.7.1}
+\contentsline {section}{\numberline {7.2}Integration with File I/O}{40}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Opening a Web Document}{41}{subsection.7.2.1}
+\contentsline {paragraph}{read}{41}{section*.10}
+\contentsline {subsection}{\numberline {7.2.2}Closing a Web Document}{41}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Low Level Predicates}{42}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Loading web documents}{42}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Retrieve the properties of a web document}{42}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Encode Url}{43}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Obtaining the Redirection URL}{43}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Installation and configuration}{43}{section.7.4}
+\contentsline {chapter}{\numberline {8}sgml and xpath: SGML/XML/HTML Parsers and XPath}{44}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{44}{section.8.1}
+\contentsline {paragraph}{Installation and configuration.}{44}{section*.11}
+\contentsline {section}{\numberline {8.2}Overview of the SGML Parser}{45}{section.8.2}
+\contentsline {section}{\numberline {8.3}Predicate Reference}{47}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Loading Structured Documents}{47}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Handling of White Spaces}{49}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}XML documents}{50}{subsection.8.3.3}
+\contentsline {subsubsection}{XML Namespaces}{51}{section*.12}
+\contentsline {subsection}{\numberline {8.3.4}DTD-Handling}{51}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.5}Low-level Parsing Primitives}{52}{subsection.8.3.5}
+\contentsline {subsection}{\numberline {8.3.6}External Entities}{55}{subsection.8.3.6}
+\contentsline {subsection}{\numberline {8.3.7}Exceptions}{55}{subsection.8.3.7}
+\contentsline {subsection}{\numberline {8.3.8}Unsupported features}{56}{subsection.8.3.8}
+\contentsline {subsection}{\numberline {8.3.9}Summary of Predicates}{57}{subsection.8.3.9}
+\contentsline {section}{\numberline {8.4}XPath support}{57}{section.8.4}
+\contentsline {chapter}{\numberline {9}{\tt rdf}: The XSB RDF Parser}{60}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction}{60}{section.9.1}
+\contentsline {section}{\numberline {9.2}High-level API}{60}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}RDF Object representation}{62}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Name spaces}{62}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Low-level access}{63}{subsection.9.2.3}
+\contentsline {section}{\numberline {9.3}Testing the RDF translator}{63}{section.9.3}
+\contentsline {chapter}{\numberline {10}Constraint Packages}{64}{chapter.10}
+\contentsline {section}{\numberline {10.1}{\tt clpr}: The CPL(R) package}{64}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}The CLP(R) API}{66}{subsection.10.1.1}
+\contentsline {section}{\numberline {10.2}The {\tt bounds} Package}{71}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}The {\tt bounds} API}{73}{subsection.10.2.1}
+\contentsline {chapter}{\numberline {11}Constraint Handling Rules}{77}{chapter.11}
+\contentsline {section}{\numberline {11.1}Introduction}{77}{section.11.1}
+\contentsline {section}{\numberline {11.2}Syntax and Semantics}{77}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Syntax}{77}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Semantics}{79}{subsection.11.2.2}
+\contentsline {paragraph}{Rule Types}{79}{section*.13}
+\contentsline {paragraph}{Rule Names}{80}{section*.14}
+\contentsline {paragraph}{Pragmas}{80}{section*.15}
+\contentsline {section}{\numberline {11.3}CHR in XSB Programs}{80}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}Embedding in XSB Programs}{80}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Compilation}{81}{subsection.11.3.2}
+\contentsline {section}{\numberline {11.4}Useful Predicates}{81}{section.11.4}
+\contentsline {section}{\numberline {11.5}Examples}{81}{section.11.5}
+\contentsline {section}{\numberline {11.6}CHR and Tabling}{82}{section.11.6}
+\contentsline {subsection}{\numberline {11.6.1}General Issues and Principles}{83}{subsection.11.6.1}
+\contentsline {subsection}{\numberline {11.6.2}Call Abstraction}{83}{subsection.11.6.2}
+\contentsline {subsection}{\numberline {11.6.3}Answer Projection}{84}{subsection.11.6.3}
+\contentsline {paragraph}{Example}{85}{section*.16}
+\contentsline {subsection}{\numberline {11.6.4}Answer Combination}{86}{subsection.11.6.4}
+\contentsline {paragraph}{Example}{86}{section*.17}
+\contentsline {subsection}{\numberline {11.6.5}Overview of Tabling-related Predicates}{88}{subsection.11.6.5}
+\contentsline {section}{\numberline {11.7}Guidelines}{88}{section.11.7}
+\contentsline {section}{\numberline {11.8}CHRd}{89}{section.11.8}
+\contentsline {chapter}{\numberline {12}XASP: Answer Set Programming with XSB and Smodels}{90}{chapter.12}
+\contentsline {section}{\numberline {12.1}Installing the Interface}{91}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Installing the Interface under Unix}{91}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Installing XASP under Windows using Cygwin}{92}{subsection.12.1.2}
+\contentsline {section}{\numberline {12.2}The Smodels Interface}{94}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Using the Smodels Interface with Multiple Threads}{97}{subsection.12.2.1}
+\contentsline {section}{\numberline {12.3}The xnmr\_int Interface}{99}{section.12.3}
+\contentsline {chapter}{\numberline {13} PITA: Probabilistic Inference}{100}{chapter.13}
+\contentsline {subsection}{\numberline {13.0.1}Installation}{100}{subsection.13.0.1}
+\contentsline {subsubsection}{Syntax}{101}{section*.18}
+\contentsline {subsection}{\numberline {13.0.2}Use}{102}{subsection.13.0.2}
+\contentsline {subsubsection}{Probabilistic Logic Programming}{102}{section*.19}
+\contentsline {subsubsection}{Possibilistic Logic Programming}{103}{section*.20}
+\contentsline {chapter}{\numberline {14}Other XSB Packages}{104}{chapter.14}
+\contentsline {section}{\numberline {14.1} Programming with FLORA-2}{104}{section.14.1}
+\contentsline {paragraph}{Installing {\unhbox \voidb@x \hbox {${\cal F}${\sc lora}\rm \emph {-2}}}\xspace under UNIX.}{105}{section*.21}
+\contentsline {paragraph}{Installing {\unhbox \voidb@x \hbox {${\cal F}${\sc lora}\rm \emph {-2}}}\xspace in Windows.}{105}{section*.22}
+\contentsline {paragraph}{Running {\unhbox \voidb@x \hbox {${\cal F}${\sc lora}\rm \emph {-2}}}\xspace .}{106}{section*.23}
+\contentsline {section}{\numberline {14.2}Summary of xmc: Model-checking with XSB}{107}{section.14.2}
+\contentsline {section}{\numberline {14.3} slx: Extended Logic Programs under the Well-Founded Semantics}{107}{section.14.3}
+\contentsline {section}{\numberline {14.4}gapza: Generalized Annotated Programs}{110}{section.14.4}

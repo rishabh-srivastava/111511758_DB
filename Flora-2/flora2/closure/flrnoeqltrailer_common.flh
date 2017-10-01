@@ -1,0 +1,107 @@
+:-(import(from(','(/(sub_compound,4),/(sub_compound_eq,5)),flrauxil))).
+:-(import(from(/(flora_warning_line,2),flrprint))).
+:-(import(from(/(flora_funct_arity,2),flrwrapper))).
+:-(import(from(/(flora_runtime_switch_registry,2),flrregistry))).
+:-(import(from(/(xwam_state,2),machine))).
+:-( FLORA_THIS_WORKSPACE(sub)(_h1218,_h1218,_h1252),
+    flora_runtime_switch_registry(subclassing(nonstrict),FLORA_THIS_MODULE_NAME)).
+:-( FLORA_THIS_WORKSPACE(sub)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(FLORA_THIS_WORKSPACE(inferred^sub)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),';'('->'(','(=(_h1218,_h1236),','(xwam_state(2,_h1510),','(=:=(_h1510,0),\+(flora_runtime_switch_registry(subclassing(nonstrict),FLORA_THIS_MODULE_NAME))))),flora_warning_line('cycle in class hierarchy: ~w sub ~w','.'(_h1218,'.'(_h1236,[])))),true))).
+:-( FLORA_THIS_WORKSPACE(sub)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(FLORA_THIS_WORKSPACE(silent_sub)(_h1218,_h1360,'_$ctxt'(_h1266,_h1406,_h1424)),','(FLORA_THIS_WORKSPACE(inferred^sub)(_h1360,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),';'('->'(','(=(_h1218,_h1236),','(xwam_state(2,_h1632),','(=:=(_h1632,0),\+(flora_runtime_switch_registry(subclassing(nonstrict),FLORA_THIS_MODULE_NAME))))),flora_warning_line('cycle in class hierarchy: ~w sub ~w sub ~w','.'(_h1218,'.'(_h1360,'.'(_h1236,[]))))),true)))).
+:-( FLORA_THIS_WORKSPACE(isa)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^isa)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(isa)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(nonvar(_h1236),','(var(_h1218),','(!,','(FLORA_THIS_WORKSPACE(silent_sub)(_h1424,_h1236,'_$ctxt'(_h1266,_h1486,_h1504)),FLORA_THIS_WORKSPACE(inferred^isa)(_h1218,_h1424,'_$ctxt'(_h1266,_h1284,_h1302))))))).
+:-( FLORA_THIS_WORKSPACE(isa)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ';'('->'(flora_runtime_switch_registry(class_expressions,FLORA_THIS_MODULE_NAME),','(FLORA_THIS_WORKSPACE(inferred^isa)(_h1218,_h1408,'_$ctxt'(_h1266,_h1284,_h1302)),FLORA_THIS_WORKSPACE(silent_sub)(_h1408,_h1236,'_$ctxt'(_h1266,_h1570,_h1588)))),','(FLORA_THIS_WORKSPACE(silent_sub)(_h1408,_h1236,'_$ctxt'(_h1266,_h1690,_h1708)),FLORA_THIS_WORKSPACE(inferred^isa)(_h1218,_h1408,'_$ctxt'(_h1266,_h1284,_h1302))))).
+:-( FLORA_THIS_WORKSPACE(tran)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^tran)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(mvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    FLORA_THIS_WORKSPACE(inferred^mvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320))).
+:-( FLORA_THIS_WORKSPACE(mvdcondef)(_h1218,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338)),
+    FLORA_THIS_WORKSPACE(inferred^mvdcondef)(_h1218,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338))).
+:-( FLORA_THIS_WORKSPACE(mvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^mvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(mvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(mvdsig)(_h1218,_h1236,_h1376,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    FLORA_THIS_WORKSPACE(inferred^imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320))).
+:-( FLORA_THIS_WORKSPACE(imvdcondef)(_h1218,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338)),
+    FLORA_THIS_WORKSPACE(inferred^imvdcondef)(_h1218,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338))).
+:-( FLORA_THIS_WORKSPACE(imvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^imvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(imvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(imvdsig)(_h1218,_h1236,_h1376,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(boolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^boolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(iboolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^iboolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(transig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^transig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(itransig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    FLORA_THIS_WORKSPACE(inferred^itransig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))).
+:-( FLORA_THIS_WORKSPACE(exists)(_h1218,'_$ctxt'(_h1248,_h1266,_h1284)),
+    FLORA_THIS_WORKSPACE(inferred^exists)(_h1218,'_$ctxt'(_h1248,_h1266,_h1284))).
+:-(import(from(','(/(sub_compound,4),/(sub_compound_eq,5)),flrauxil))).
+:-(import(from(/(predicate_property,2),curr_sym))).
+:-( FLORA_THIS_WORKSPACE(mvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(mvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1218,_h1498,'_$ctxt'(_h1284,_h1544,_h1562)),FLORA_THIS_WORKSPACE(imvdsig)(_h1498,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320))))).
+:-( FLORA_THIS_WORKSPACE(imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(imvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1218,_h1498,'_$ctxt'(_h1284,_h1544,_h1562)),FLORA_THIS_WORKSPACE(imvdsig)(_h1498,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320))))).
+:-( FLORA_THIS_WORKSPACE(mvdcondef)(_h1218,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(mvdcondef)(_h1392,_h1410,_h1428,_h1446,_h1464),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1218,_h1534,'_$ctxt'(_h1302,_h1580,_h1598)),FLORA_THIS_WORKSPACE(imvdcondef)(_h1534,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338))))).
+:-( FLORA_THIS_WORKSPACE(imvdcondef)(_h1218,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(imvdcondef)(_h1392,_h1410,_h1428,_h1446,_h1464),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1218,_h1534,'_$ctxt'(_h1302,_h1580,_h1598)),FLORA_THIS_WORKSPACE(imvdcondef)(_h1534,_h1236,_h1254,_h1272,'_$ctxt'(_h1302,_h1320,_h1338))))).
+:-( FLORA_THIS_WORKSPACE(mvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(mvdsigdef)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(imvdsigdef)(_h1462,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))))).
+:-( FLORA_THIS_WORKSPACE(imvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(imvdsigdef)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(imvdsigdef)(_h1462,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))))).
+:-( FLORA_THIS_WORKSPACE(boolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(boolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(iboolsig)(_h1462,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))))).
+:-( FLORA_THIS_WORKSPACE(iboolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(iboolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(iboolsig)(_h1462,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))))).
+:-( FLORA_THIS_WORKSPACE(transig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(transig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(itransig)(_h1462,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))))).
+:-( FLORA_THIS_WORKSPACE(itransig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(itransig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(itransig)(_h1462,_h1236,'_$ctxt'(_h1266,_h1284,_h1302))))).
+:-( FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1482,_h1218,'_$ctxt'(_h1284,_h1544,_h1562)),FLORA_THIS_WORKSPACE(neg^mvdsig)(_h1482,_h1236,_h1254,'_$ctxt'(_h1284,_h1680,_h1698))))).
+:-( FLORA_THIS_WORKSPACE(neg^imvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^imvdsigdef)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1446,_h1218,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(neg^mvdsigdef)(_h1446,_h1236,'_$ctxt'(_h1266,_h1628,_h1646))))).
+:-( FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1482,_h1218,'_$ctxt'(_h1284,_h1544,_h1562)),FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1482,_h1236,_h1254,'_$ctxt'(_h1284,_h1680,_h1698))))).
+:-( FLORA_THIS_WORKSPACE(neg^imvdsigdef)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^imvdsigdef)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1446,_h1218,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(neg^imvdsigdef)(_h1446,_h1236,'_$ctxt'(_h1266,_h1628,_h1646))))).
+:-( FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(isa)(_h1446,_h1218,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(neg^boolsig)(_h1446,_h1236,'_$ctxt'(_h1266,_h1628,_h1646))))).
+:-( FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(inheritance^sub)(_h1446,_h1218,'_$ctxt'(_h1266,_h1508,_h1526)),FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1446,_h1236,'_$ctxt'(_h1266,_h1628,_h1646))))).
+:-( FLORA_THIS_WORKSPACE(mvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(mvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(mvdsig)(_h1218,_h1236,_h1514,'_$ctxt'(_h1284,_h1560,_h1578)),FLORA_THIS_WORKSPACE(sub)(_h1514,_h1254,'_$ctxt'(_h1284,_h1680,_h1698))))).
+:-( FLORA_THIS_WORKSPACE(mvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(mvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(mvdsig)(_h1218,_h1498,_h1254,'_$ctxt'(_h1284,_h1560,_h1578)),:(flrauxil,sub_compound(_h1236,_h1498,FLORA_THIS_WORKSPACE(isa)(_h1676,_h1694,_h1712),FLORA_THIS_WORKSPACE(sub)(_h1748,_h1766,_h1784)))))).
+:-( FLORA_THIS_WORKSPACE(imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(imvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(imvdsig)(_h1218,_h1236,_h1514,'_$ctxt'(_h1284,_h1560,_h1578)),FLORA_THIS_WORKSPACE(sub)(_h1514,_h1254,'_$ctxt'(_h1284,_h1680,_h1698))))).
+:-( FLORA_THIS_WORKSPACE(imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(imvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(imvdsig)(_h1218,_h1498,_h1254,'_$ctxt'(_h1284,_h1560,_h1578)),:(flrauxil,sub_compound(_h1236,_h1498,FLORA_THIS_WORKSPACE(isa)(_h1676,_h1694,_h1712),FLORA_THIS_WORKSPACE(sub)(_h1748,_h1766,_h1784)))))).
+:-( FLORA_THIS_WORKSPACE(neg^mvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^mvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(neg^mvdsig)(_h1218,_h1236,_h1514,'_$ctxt'(_h1284,_h1560,_h1578)),FLORA_THIS_WORKSPACE(sub)(_h1254,_h1514,'_$ctxt'(_h1284,_h1680,_h1698))))).
+:-( FLORA_THIS_WORKSPACE(neg^mvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^mvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(neg^mvdsig)(_h1218,_h1498,_h1254,'_$ctxt'(_h1284,_h1560,_h1578)),:(flrauxil,sub_compound(_h1498,_h1236,FLORA_THIS_WORKSPACE(isa)(_h1676,_h1694,_h1712),FLORA_THIS_WORKSPACE(sub)(_h1748,_h1766,_h1784)))))).
+:-( FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1218,_h1236,_h1514,'_$ctxt'(_h1284,_h1560,_h1578)),FLORA_THIS_WORKSPACE(sub)(_h1254,_h1514,'_$ctxt'(_h1284,_h1680,_h1698))))).
+:-( FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1218,_h1236,_h1254,'_$ctxt'(_h1284,_h1302,_h1320)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1374,_h1392,_h1410,_h1428),tabled),','(FLORA_THIS_WORKSPACE(neg^imvdsig)(_h1218,_h1498,_h1254,'_$ctxt'(_h1284,_h1560,_h1578)),:(flrauxil,sub_compound(_h1498,_h1236,FLORA_THIS_WORKSPACE(isa)(_h1676,_h1694,_h1712),FLORA_THIS_WORKSPACE(sub)(_h1748,_h1766,_h1784)))))).
+:-( FLORA_THIS_WORKSPACE(boolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(boolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(boolsig)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),:(flrauxil,sub_compound(_h1236,_h1462,FLORA_THIS_WORKSPACE(isa)(_h1624,_h1642,_h1660),FLORA_THIS_WORKSPACE(sub)(_h1696,_h1714,_h1732)))))).
+:-( FLORA_THIS_WORKSPACE(iboolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(iboolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(iboolsig)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),:(flrauxil,sub_compound(_h1236,_h1462,FLORA_THIS_WORKSPACE(isa)(_h1624,_h1642,_h1660),FLORA_THIS_WORKSPACE(sub)(_h1696,_h1714,_h1732)))))).
+:-( FLORA_THIS_WORKSPACE(neg^boolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^boolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(neg^boolsig)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),:(flrauxil,sub_compound(_h1462,_h1236,FLORA_THIS_WORKSPACE(isa)(_h1624,_h1642,_h1660),FLORA_THIS_WORKSPACE(sub)(_h1696,_h1714,_h1732)))))).
+:-( FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(neg^iboolsig)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),:(flrauxil,sub_compound(_h1462,_h1236,FLORA_THIS_WORKSPACE(isa)(_h1624,_h1642,_h1660),FLORA_THIS_WORKSPACE(sub)(_h1696,_h1714,_h1732)))))).
+:-( FLORA_THIS_WORKSPACE(transig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(transig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(transig)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),:(flrauxil,sub_compound(_h1236,_h1462,FLORA_THIS_WORKSPACE(isa)(_h1624,_h1642,_h1660),FLORA_THIS_WORKSPACE(sub)(_h1696,_h1714,_h1732)))))).
+:-( FLORA_THIS_WORKSPACE(itransig)(_h1218,_h1236,'_$ctxt'(_h1266,_h1284,_h1302)),
+    ','(predicate_property(FLORA_THIS_WORKSPACE(itransig)(_h1356,_h1374,_h1392),tabled),','(FLORA_THIS_WORKSPACE(itransig)(_h1218,_h1462,'_$ctxt'(_h1266,_h1508,_h1526)),:(flrauxil,sub_compound(_h1236,_h1462,FLORA_THIS_WORKSPACE(isa)(_h1624,_h1642,_h1660),FLORA_THIS_WORKSPACE(sub)(_h1696,_h1714,_h1732)))))).

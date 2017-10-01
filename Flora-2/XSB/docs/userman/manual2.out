@@ -1,0 +1,110 @@
+\BOOKMARK [0][-]{chapter.1}{XSB-ODBC Interface}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Using the Interface}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Connecting to and Disconnecting from Data Sources}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Accessing Tables in Data Sources Using SQL}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Cursor Management}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Accessing Tables in Data Sources through the Relation Level}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.5}{Using the Relation Level Interface}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.6}{Handling NULL values}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.7}{The View Level Interface}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.8}{Insertions and Deletions of Rows through the Relational Level}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.9}{Access to Data Dictionaries}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.10}{Other Database Operations}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.11}{Transaction Management}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.12}{Interface Flags}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.13}{Datalog}{section.1.2}% 16
+\BOOKMARK [1][-]{section.1.3}{Error messages}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.4}{Notes on specific ODBC drivers}{chapter.1}% 18
+\BOOKMARK [0][-]{chapter.2}{The New XSB-Database Interface}{}% 19
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.2}{Configuring the Interface}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Using the Interface}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.3.1}{Connecting to and Disconnecting from Databases}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.2}{Querying Databases}{section.2.3}% 24
+\BOOKMARK [1][-]{section.2.4}{Error Handling}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.5}{Notes on specific drivers}{chapter.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Libraries from Other Prologs}{}% 27
+\BOOKMARK [1][-]{section.3.1}{AVL Trees}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Ordered Sets: ordsets.P}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{Unweighted Graphs: ugraphs.P}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Heaps: heaps.P}{chapter.3}% 31
+\BOOKMARK [0][-]{chapter.4}{Introduction to XSB Packages}{}% 32
+\BOOKMARK [0][-]{chapter.5}{Wildcard Matching}{}% 33
+\BOOKMARK [0][-]{chapter.6}{pcre: Pattern Matching and Substitution Using PCRE}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.2}{Pattern matching}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.3}{String Substitution}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.4}{Installation and configuration}{chapter.6}% 38
+\BOOKMARK [2][-]{subsection.6.4.1}{Configuring for Linux, Mac, and other Unices}{section.6.4}% 39
+\BOOKMARK [2][-]{subsection.6.4.2}{Configuring for Windows}{section.6.4}% 40
+\BOOKMARK [0][-]{chapter.7}{curl: The XSB Internet Access Package}{}% 41
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 42
+\BOOKMARK [1][-]{section.7.2}{Integration with File I/O}{chapter.7}% 43
+\BOOKMARK [2][-]{subsection.7.2.1}{Opening a Web Document}{section.7.2}% 44
+\BOOKMARK [2][-]{subsection.7.2.2}{Closing a Web Document}{section.7.2}% 45
+\BOOKMARK [1][-]{section.7.3}{Low Level Predicates}{chapter.7}% 46
+\BOOKMARK [2][-]{subsection.7.3.1}{Loading web documents}{section.7.3}% 47
+\BOOKMARK [2][-]{subsection.7.3.2}{Retrieve the properties of a web document}{section.7.3}% 48
+\BOOKMARK [2][-]{subsection.7.3.3}{Encode Url}{section.7.3}% 49
+\BOOKMARK [2][-]{subsection.7.3.4}{Obtaining the Redirection URL}{section.7.3}% 50
+\BOOKMARK [1][-]{section.7.4}{Installation and configuration}{chapter.7}% 51
+\BOOKMARK [0][-]{chapter.8}{sgml and xpath: SGML/XML/HTML Parsers and XPath}{}% 52
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 53
+\BOOKMARK [1][-]{section.8.2}{Overview of the SGML Parser}{chapter.8}% 54
+\BOOKMARK [1][-]{section.8.3}{Predicate Reference}{chapter.8}% 55
+\BOOKMARK [2][-]{subsection.8.3.1}{Loading Structured Documents}{section.8.3}% 56
+\BOOKMARK [2][-]{subsection.8.3.2}{Handling of White Spaces}{section.8.3}% 57
+\BOOKMARK [2][-]{subsection.8.3.3}{XML documents}{section.8.3}% 58
+\BOOKMARK [2][-]{subsection.8.3.4}{DTD-Handling}{section.8.3}% 59
+\BOOKMARK [2][-]{subsection.8.3.5}{Low-level Parsing Primitives}{section.8.3}% 60
+\BOOKMARK [2][-]{subsection.8.3.6}{External Entities}{section.8.3}% 61
+\BOOKMARK [2][-]{subsection.8.3.7}{Exceptions}{section.8.3}% 62
+\BOOKMARK [2][-]{subsection.8.3.8}{Unsupported features}{section.8.3}% 63
+\BOOKMARK [2][-]{subsection.8.3.9}{Summary of Predicates}{section.8.3}% 64
+\BOOKMARK [1][-]{section.8.4}{XPath support}{chapter.8}% 65
+\BOOKMARK [0][-]{chapter.9}{rdf: The XSB RDF Parser}{}% 66
+\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}% 67
+\BOOKMARK [1][-]{section.9.2}{High-level API}{chapter.9}% 68
+\BOOKMARK [2][-]{subsection.9.2.1}{RDF Object representation}{section.9.2}% 69
+\BOOKMARK [2][-]{subsection.9.2.2}{Name spaces}{section.9.2}% 70
+\BOOKMARK [2][-]{subsection.9.2.3}{Low-level access}{section.9.2}% 71
+\BOOKMARK [1][-]{section.9.3}{Testing the RDF translator}{chapter.9}% 72
+\BOOKMARK [0][-]{chapter.10}{Constraint Packages}{}% 73
+\BOOKMARK [1][-]{section.10.1}{clpr: The CPL\(R\) package}{chapter.10}% 74
+\BOOKMARK [2][-]{subsection.10.1.1}{The CLP\(R\) API}{section.10.1}% 75
+\BOOKMARK [1][-]{section.10.2}{The bounds Package}{chapter.10}% 76
+\BOOKMARK [2][-]{subsection.10.2.1}{The bounds API}{section.10.2}% 77
+\BOOKMARK [0][-]{chapter.11}{Constraint Handling Rules}{}% 78
+\BOOKMARK [1][-]{section.11.1}{Introduction}{chapter.11}% 79
+\BOOKMARK [1][-]{section.11.2}{Syntax and Semantics}{chapter.11}% 80
+\BOOKMARK [2][-]{subsection.11.2.1}{Syntax}{section.11.2}% 81
+\BOOKMARK [2][-]{subsection.11.2.2}{Semantics}{section.11.2}% 82
+\BOOKMARK [1][-]{section.11.3}{CHR in XSB Programs}{chapter.11}% 83
+\BOOKMARK [2][-]{subsection.11.3.1}{Embedding in XSB Programs}{section.11.3}% 84
+\BOOKMARK [2][-]{subsection.11.3.2}{Compilation}{section.11.3}% 85
+\BOOKMARK [1][-]{section.11.4}{Useful Predicates}{chapter.11}% 86
+\BOOKMARK [1][-]{section.11.5}{Examples}{chapter.11}% 87
+\BOOKMARK [1][-]{section.11.6}{CHR and Tabling}{chapter.11}% 88
+\BOOKMARK [2][-]{subsection.11.6.1}{General Issues and Principles}{section.11.6}% 89
+\BOOKMARK [2][-]{subsection.11.6.2}{Call Abstraction}{section.11.6}% 90
+\BOOKMARK [2][-]{subsection.11.6.3}{Answer Projection}{section.11.6}% 91
+\BOOKMARK [2][-]{subsection.11.6.4}{Answer Combination}{section.11.6}% 92
+\BOOKMARK [2][-]{subsection.11.6.5}{Overview of Tabling-related Predicates}{section.11.6}% 93
+\BOOKMARK [1][-]{section.11.7}{Guidelines}{chapter.11}% 94
+\BOOKMARK [1][-]{section.11.8}{CHRd}{chapter.11}% 95
+\BOOKMARK [0][-]{chapter.12}{XASP: Answer Set Programming with XSB and Smodels}{}% 96
+\BOOKMARK [1][-]{section.12.1}{Installing the Interface}{chapter.12}% 97
+\BOOKMARK [2][-]{subsection.12.1.1}{Installing the Interface under Unix}{section.12.1}% 98
+\BOOKMARK [2][-]{subsection.12.1.2}{Installing XASP under Windows using Cygwin}{section.12.1}% 99
+\BOOKMARK [1][-]{section.12.2}{The Smodels Interface}{chapter.12}% 100
+\BOOKMARK [2][-]{subsection.12.2.1}{Using the Smodels Interface with Multiple Threads}{section.12.2}% 101
+\BOOKMARK [1][-]{section.12.3}{The xnmr\137int Interface}{chapter.12}% 102
+\BOOKMARK [0][-]{chapter.13}{ PITA: Probabilistic Inference}{}% 103
+\BOOKMARK [1][-]{subsection.13.0.1}{Installation}{chapter.13}% 104
+\BOOKMARK [2][-]{subsection.13.0.2}{Use}{subsection.13.0.1}% 105
+\BOOKMARK [0][-]{chapter.14}{Other XSB Packages}{}% 106
+\BOOKMARK [1][-]{section.14.1}{ Programming with FLORA-2}{chapter.14}% 107
+\BOOKMARK [1][-]{section.14.2}{Summary of xmc: Model-checking with XSB}{chapter.14}% 108
+\BOOKMARK [1][-]{section.14.3}{ slx: Extended Logic Programs under the Well-Founded Semantics}{chapter.14}% 109
+\BOOKMARK [1][-]{section.14.4}{gapza: Generalized Annotated Programs}{chapter.14}% 110

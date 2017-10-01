@@ -1,0 +1,3 @@
+?-(','(\+(clause('_$_$_flora''forced_defeasibility'(_h1260,_h1278,FLORA_THIS_MODULE_NAME,_h1308),_h1332)),assert(:-('_$_$_flora''forced_defeasibility'(_h1386,_h1404,FLORA_THIS_MODULE_NAME,_h1434),FLORA_THIS_WORKSPACE(forced_defeasibility)(_h1386,_h1404,_h1434))))).
+:-(import(from(/(fllibdelayedliteral,4),usermod))).
+?-(';'(->(clause(FLORA_THIS_WORKSPACE(diffobjeql_aux)(_h1260,_h1278,_h1296),_h1320),true),assert(:-(FLORA_THIS_WORKSPACE(diffobjeql_aux)(_h1386,_h1404,_h1422),';'(=(_h1386,_h1404),FLORA_THIS_WORKSPACE(diffobjeql)(_h1386,_h1404,_h1422)))))).

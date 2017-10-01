@@ -1,0 +1,1191 @@
+\begin{theindex}
+
+  \item $\backslash$\texttt{+/1}, \hyperpage{193}
+  \item $\backslash$\texttt{=/2}, \hyperpage{200}
+  \item $\backslash$\texttt{==/2}, \hyperpage{200}
+  \item \^, \hyperpage{236}
+  \item \^\ /2, \hyperpage{192}
+  \item \texttt  {!/0}, \hyperpage{193}
+  \item \texttt  {'$\vee $'/2}, \hyperpage{190}
+  \item \texttt  {'$\wedge $'/2}, \hyperpage{190}
+  \item \texttt  {'/'/2}, \hyperpage{189}
+  \item \texttt  {'//'/2}, \hyperpage{189}
+  \item \texttt  {'<<'/2}, \hyperpage{190}
+  \item \texttt  {'><'/2}, \hyperpage{190}
+  \item \texttt  {'>>'/2}, \hyperpage{190}
+  \item \texttt  {**/2}, \hyperpage{192}
+  \item \texttt  {*/2}, \hyperpage{189}
+  \item \texttt  {+/2}, \hyperpage{189}
+  \item \texttt  {-/1}, \hyperpage{190}
+  \item \texttt  {-/2}, \hyperpage{189}
+  \item \texttt  {=../2}, \hyperpage{216}
+  \item \texttt  {=/2}, \hyperpage{199}
+  \item \texttt  {==/2}, \hyperpage{199}
+  \item \texttt  {?=/2}, \hyperpage{200}
+  \item \texttt  {@$<$/2}, \hyperpage{200}
+  \item \texttt  {@$=/2$}, \hyperpage{200}
+  \item \texttt  {@$=</2$}, \hyperpage{200}
+  \item \texttt  {@$>$/2}, \hyperpage{200}
+  \item \texttt  {@$>=/2$}, \hyperpage{200}
+  \item \texttt  {ISO}, \hyperpage{207}, \hyperpage{253}, 
+		\hyperpage{272}
+  \item \texttt  {[]/1 (consult)}, \hyperpage{47}
+  \item \texttt  {\$trace/0}, \hyperpage{380}
+  \item \texttt  {\^\ /2}, \hyperpage{240}
+  \item \texttt  {\^{ }=../2}, \hyperpage{218}
+  \item \texttt  {`C'/3}, \hyperpage{431}
+  \item \texttt  {abolish/1}, \hyperpage{284}
+  \item \texttt  {abolish\_all\_private\_tables/0}, \hyperpage{321}
+  \item \texttt  {abolish\_all\_shared\_tables/0}, \hyperpage{321}
+  \item \texttt  {abolish\_all\_tables/0}, \hyperpage{320}
+  \item \texttt  {abolish\_module\_tables/1}, \hyperpage{322}
+  \item \texttt  {abolish\_nonincremental\_tables/0}, \hyperpage{320}
+  \item \texttt  {abolish\_table\_pred/1}, \hyperpage{317}
+  \item \texttt  {abolish\_table\_pred/2}, \hyperpage{318}
+  \item \texttt  {abolish\_table\_subgoal/1}, \hyperpage{319}
+  \item \texttt  {abolish\_table\_subgoal/2}, \hyperpage{320}
+  \item \texttt  {abolish\_table\_subgoals/1}, \hyperpage{318}
+  \item \texttt  {abolish\_table\_subgoals/2}, \hyperpage{319}
+  \item \texttt  {abort/0}, \hyperpage{446}
+  \item \texttt  {abort/1}, \hyperpage{446}
+  \item \texttt  {absmember/2}, \hyperpage{511}
+  \item \texttt  {absmerge/3}, \hyperpage{511}
+  \item \texttt  {abstract\_modes/2}, \hyperpage{395}
+  \item \texttt  {acos/1}, \hyperpage{192}
+  \item \texttt  {acyclic\_term/1}, \hyperpage{222}
+  \item \texttt  {add\_libraries/1}, \hyperpage{549}
+  \item \texttt  {add\_xsb\_hook/1}, \hyperpage{371}
+  \item \texttt  {analyze\_an\_scc/2}, \hyperpage{394}
+  \item \texttt  {analyze\_an\_scc/3}, \hyperpage{394}
+  \item \texttt  {append/3}, \hyperpage{509}
+  \item \texttt  {arg/3}, \hyperpage{214}
+  \item \texttt  {arg0/3}, \hyperpage{215}
+  \item \texttt  {array\_elt/3}, \hyperpage{540}
+  \item \texttt  {array\_new/2}, \hyperpage{540}
+  \item \texttt  {array\_update/3}, \hyperpage{540}
+  \item \texttt  {asin/1}, \hyperpage{192}
+  \item \texttt  {assert/1}, \hyperpage{283}
+  \item \texttt  {assert/3}, \hyperpage{283}
+  \item \texttt  {assert\_in\_db/3}, \hyperpage{551}
+  \item \texttt  {asserta/1}, \hyperpage{282}
+  \item \texttt  {assertz/1}, \hyperpage{282}
+  \item \texttt  {at\_end\_of\_stream/0}, \hyperpage{156}
+  \item \texttt  {at\_end\_of\_stream/1}, \hyperpage{156}
+  \item \texttt  {atan/1}, \hyperpage{192}
+  \item \texttt  {atan/2}, \hyperpage{192}
+  \item \texttt  {atan2/2}, \hyperpage{192}
+  \item \texttt  {atom/1}, \hyperpage{206}
+  \item \texttt  {atom\_chars/2}, \hyperpage{226}
+  \item \texttt  {atom\_codes/2}, \hyperpage{223}
+  \item \texttt  {atom\_concat/3}, \hyperpage{229}
+  \item \texttt  {atom\_length/2}, \hyperpage{228}
+  \item \texttt  {atomic/1}, \hyperpage{207}
+  \item \texttt  {bagof/3}, \hyperpage{237}
+  \item \texttt  {between/3}, \hyperpage{197}
+  \item \texttt  {bounded\_call/3}, \hyperpage{252}
+  \item \texttt  {bounded\_call/4}, \hyperpage{46}, \hyperpage{251}
+  \item \texttt  {break/0}, \hyperpage{271}
+  \item \texttt  {c2p\_float}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {c2p\_functor}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {c2p\_int}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {c2p\_list}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {c2p\_nil}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {c2p\_string}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {call/1}, \hyperpage{241}
+  \item \texttt  {call/[2,10]}, \hyperpage{242}
+  \item \texttt  {call\_cleanup/2}, \hyperpage{244}
+  \item \texttt  {call\_in\_db/2}, \hyperpage{551}
+  \item \texttt  {call\_tv/2}, \hyperpage{242}
+  \item \texttt  {callable/1}, \hyperpage{209}
+  \item \texttt  {catch/3}, \hyperpage{446}
+  \item \texttt  {cd/1}, \hyperpage{185}
+  \item \texttt  {ceiling/1}, \hyperpage{191}
+  \item \texttt  {char\_code/2}, \hyperpage{228}
+  \item \texttt  {checkImpExps/1}, \hyperpage{550}
+  \item \texttt  {check\_acyclic/3}, \hyperpage{448}
+  \item \texttt  {check\_atom/3}, \hyperpage{448}
+  \item \texttt  {check\_callable/3}, \hyperpage{448}
+  \item \texttt  {check\_ground/3}, \hyperpage{448}
+  \item \texttt  {check\_integern/3}, \hyperpage{448}
+  \item \texttt  {check\_nonvar/3}, \hyperpage{448}
+  \item \texttt  {check\_nonvar\_list/3}, \hyperpage{448}
+  \item \texttt  {check\_one\_thread/3}, \hyperpage{448}
+  \item \texttt  {check\_stream/3}, \hyperpage{449}
+  \item \texttt  {check\_var/3}, \hyperpage{449}
+  \item \texttt  {check\_variant/1}, \hyperpage{202}
+  \item \texttt  {check\_variant/2}, \hyperpage{202}
+  \item \texttt  {clause/2}, \hyperpage{285}
+  \item \texttt  {clause\_in\_db/3}, \hyperpage{551}
+  \item \texttt  {close/1}, \hyperpage{154}
+  \item \texttt  {close/2}, \hyperpage{153}
+  \item \texttt  {closetail/1}, \hyperpage{512}
+  \item \texttt  {comma\_append/3}, \hyperpage{512}
+  \item \texttt  {comma\_length/2}, \hyperpage{512}
+  \item \texttt  {comma\_member/2}, \hyperpage{512}
+  \item \texttt  {comma\_memberchk/2}, \hyperpage{512}
+  \item \texttt  {comma\_to\_list/2}, \hyperpage{512}
+  \item \texttt  {compare/3}, \hyperpage{201}
+  \item \texttt  {compile/1}, \hyperpage{47}, \hyperpage{50}
+  \item \texttt  {compile/2}, \hyperpage{47}, \hyperpage{50}
+  \item \texttt  {compound/1}, \hyperpage{207}
+  \item \texttt  {concat\_atom/2}, \hyperpage{228}
+  \item \texttt  {concat\_atom/3}, \hyperpage{229}
+  \item \texttt  {console\_write/1}, \hyperpage{175}
+  \item \texttt  {console\_writeln/1}, \hyperpage{175}
+  \item \texttt  {consult}, \hyperpage{36}
+  \item \texttt  {copy\_term/2}, \hyperpage{219}
+  \item \texttt  {copy\_term\_nat/2}, \hyperpage{219}
+  \item \texttt  {cos/1}, \hyperpage{192}
+  \item \texttt  {crypto\_hash/3}, \hyperpage{552}
+  \item \texttt  {current\_atom/1}, \hyperpage{265}
+  \item \texttt  {current\_functor/1}, \hyperpage{264}
+  \item \texttt  {current\_index/2}, \hyperpage{264}
+  \item \texttt  {current\_input/1}, \hyperpage{253}
+  \item \texttt  {current\_module/1}, \hyperpage{263}
+  \item \texttt  {current\_module/2}, \hyperpage{264}
+  \item \texttt  {current\_op/3}, \hyperpage{271}
+  \item \texttt  {current\_predicate/1}, \hyperpage{263}
+  \item \texttt  {current\_prolog\_flag/2}, \hyperpage{254}
+  \item \texttt  {current\_timed\_call/2}, \hyperpage{250}
+  \item \texttt  {cvt\_canonical/2}, \hyperpage{295}
+  \item \texttt  {datime/1}, \hyperpage{184}
+  \item \texttt  {datime\_setrand/0}, \hyperpage{545}
+  \item \texttt  {dcg/2}, \hyperpage{432}
+  \item \texttt  {debug/0}, \hyperpage{377}
+  \item \texttt  {debug\_ctl/2}, \hyperpage{377}
+  \item \texttt  {debugging/0}, \hyperpage{377}
+  \item \texttt  {default\_user\_error\_handler/1}, \hyperpage{447}
+  \item \texttt  {del\_attr/2}, \hyperpage{513}
+  \item \texttt  {delete\_ith/4}, \hyperpage{510}
+  \item \texttt  {delete\_returns/2}, \hyperpage{322}
+  \item \texttt  {delete\_trie/1}, \hyperpage{369}
+  \item \texttt  {dep\_graph\_scc\_info/2}, \hyperpage{411}
+  \item \texttt  {div/2}, \hyperpage{189}
+  \item \texttt  {do\_all/1}, \hyperpage{197}
+  \item \texttt  {do\_all/2}, \hyperpage{197}
+  \item \texttt  {domain\_error/4}, \hyperpage{444}
+  \item \texttt  {dynamic/1}, \hyperpage{139}, \hyperpage{289}
+  \item \texttt  {e/0}, \hyperpage{192}
+  \item \texttt  {else/0}, \hyperpage{64}
+  \item \texttt  {elseif/1}, \hyperpage{64}
+  \item \texttt  {empty\_db/1}, \hyperpage{551}
+  \item \texttt  {endif/0}, \hyperpage{64}
+  \item \texttt  {ensure\_loaded/1}, \hyperpage{48}
+  \item \texttt  {ensure\_loaded/2}, \hyperpage{295}
+  \item \texttt  {epoch\_milliseconds/2}, \hyperpage{184}
+  \item \texttt  {epoch\_seconds/1}, \hyperpage{184}
+  \item \texttt  {epsilon/0}, \hyperpage{192}
+  \item \texttt  {error\_write/1}, \hyperpage{175}, \hyperpage{447}
+  \item \texttt  {error\_writeln/1}, \hyperpage{175}, \hyperpage{447}
+  \item \texttt  {evaluation\_error/3}, \hyperpage{444}
+  \item \texttt  {excess\_vars/4}, \hyperpage{240}
+  \item \texttt  {existence\_error/4}, \hyperpage{445}
+  \item \texttt  {expand\_filename/2}, \hyperpage{524}
+  \item \texttt  {expand\_filename\_no\_prepend/2}, \hyperpage{524}
+  \item \texttt  {expand\_term/2}, \hyperpage{429}
+  \item \texttt  {explain\_u\_val/3}, \hyperpage{130}, \hyperpage{257}, 
+		\hyperpage{407}
+  \item \texttt  {explain\_u\_val/6}, \hyperpage{257}, \hyperpage{407}
+  \item \texttt  {exponential/2}, \hyperpage{545}
+  \item \texttt  {fail/0}, \hyperpage{193}
+  \item \texttt  {fail\_if/1}, \hyperpage{193}
+  \item \texttt  {false/0}, \hyperpage{193}
+  \item \texttt  {fd2ioport/2}, \hyperpage{539}
+  \item \texttt  {fd2iostream/2}, \hyperpage{533}
+  \item \texttt  {file\_clone/3}, \hyperpage{157}
+  \item \texttt  {file\_exists/1}, \hyperpage{160}
+  \item \texttt  {file\_file\_getbuf\_atom/4}, \hyperpage{181}
+  \item \texttt  {file\_getbuf\_atom/3}, \hyperpage{181}
+  \item \texttt  {file\_getbuf\_list/3}, \hyperpage{181}
+  \item \texttt  {file\_getbuf\_list/4}, \hyperpage{180}
+  \item \texttt  {file\_putbuf/4}, \hyperpage{182}
+  \item \texttt  {file\_putbuf/5}, \hyperpage{181}
+  \item \texttt  {file\_read\_line\_atom/1}, \hyperpage{179}
+  \item \texttt  {file\_read\_line\_atom/2}, \hyperpage{180}
+  \item \texttt  {file\_read\_line\_list/1}, \hyperpage{179}
+  \item \texttt  {file\_read\_line\_list/2}, \hyperpage{179}
+  \item \texttt  {file\_reopen/3}, \hyperpage{157}
+  \item \texttt  {file\_truncate/3}, \hyperpage{157}
+  \item \texttt  {file\_write\_line/2}, \hyperpage{180}
+  \item \texttt  {file\_write\_line/3}, \hyperpage{180}
+  \item \texttt  {find\_n/4}, \hyperpage{241}
+  \item \texttt  {findall/3}, \hyperpage{238}
+  \item \texttt  {findall/4}, \hyperpage{238}
+  \item \texttt  {float/1}, \hyperpage{191}
+  \item \texttt  {floor/1}, \hyperpage{191}
+  \item \texttt  {flush\_all\_output\_streams/0}, \hyperpage{158}
+  \item \texttt  {flush\_output/0}, \hyperpage{155}
+  \item \texttt  {flush\_output/1}, \hyperpage{155}
+  \item \texttt  {fmt\_read/3}, \hyperpage{176}
+  \item \texttt  {fmt\_read/4}, \hyperpage{176}
+  \item \texttt  {fmt\_write/2}, \hyperpage{177}
+  \item \texttt  {fmt\_write/3}, \hyperpage{177}
+  \item \texttt  {fmt\_write\_string/3}, \hyperpage{179}
+  \item \texttt  {forall/2}, \hyperpage{244}
+  \item \texttt  {foreign\_pred/0}, \hyperpage{473}
+  \item \texttt  {forest\_log\_overview/0}, \hyperpage{394}
+  \item \texttt  {format/2}, \hyperpage{519}
+  \item \texttt  {format/3}, \hyperpage{519}
+  \item \texttt  {functor/3}, \hyperpage{210}
+  \item \texttt  {gauss/2}, \hyperpage{545}
+  \item \texttt  {gc\_atoms/0}, \hyperpage{235}
+  \item \texttt  {gc\_dynamic/1}, \hyperpage{286}
+  \item \texttt  {gc\_heap/0}, \hyperpage{273}
+  \item \texttt  {gc\_tables/1}, \hyperpage{322}
+  \item \texttt  {gennum/1}, \hyperpage{544}
+  \item \texttt  {gensym/2}, \hyperpage{544}
+  \item \texttt  {get\_attr/3}, \hyperpage{513}
+  \item \texttt  {get\_backtrace\_list/2}, \hyperpage{449}
+  \item \texttt  {get\_byte/1}, \hyperpage{163}
+  \item \texttt  {get\_byte/2}, \hyperpage{162}
+  \item \texttt  {get\_call/3}, \hyperpage{310}
+  \item \texttt  {get\_calls/3}, \hyperpage{311}
+  \item \texttt  {get\_calls\_for\_table/2}, \hyperpage{303}
+  \item \texttt  {get\_char/1}, \hyperpage{161}
+  \item \texttt  {get\_char/2}, \hyperpage{161}
+  \item \texttt  {get\_code/1}, \hyperpage{162}
+  \item \texttt  {get\_code/2}, \hyperpage{162}
+  \item \texttt  {get\_idg\_info/1}, \hyperpage{403}
+  \item \texttt  {get\_idg\_info/2}, \hyperpage{403}
+  \item \texttt  {get\_incr\_sccs/1}, \hyperpage{142}
+  \item \texttt  {get\_incr\_sccs/2}, \hyperpage{142}
+  \item \texttt  {get\_incr\_sccs\_with\_deps/2}, \hyperpage{142}
+  \item \texttt  {get\_incr\_sccs\_with\_deps/3}, \hyperpage{142}
+  \item \texttt  {get\_process\_table/1}, \hyperpage{529}
+  \item \texttt  {get\_rdg\_info/1}, \hyperpage{405}
+  \item \texttt  {get\_rdg\_info/2}, \hyperpage{405}
+  \item \texttt  {get\_residual/2}, \hyperpage{305}, \hyperpage{315}, 
+		\hyperpage{405}
+  \item \texttt  {get\_residual\_sccs/3}, \hyperpage{130}, 
+		\hyperpage{257}, \hyperpage{406}
+  \item \texttt  {get\_residual\_sccs/5}, \hyperpage{130}, 
+		\hyperpage{257}, \hyperpage{406, 407}
+  \item \texttt  {get\_returns/2}, \hyperpage{312}
+  \item \texttt  {get\_returns/3}, \hyperpage{313}
+  \item \texttt  {get\_returns\_and\_tvs/3}, \hyperpage{313}
+  \item \texttt  {get\_returns\_for\_call/2}, \hyperpage{304}
+  \item \texttt  {get\_scan\_pars/1}, \hyperpage{548}
+  \item \texttt  {get\_scc\_dumpfile/0}, \hyperpage{258}
+  \item \texttt  {get\_scc\_dumpfile/1}, \hyperpage{308}
+  \item \texttt  {get\_scc\_size/3}, \hyperpage{394}
+  \item \texttt  {get\_sdg\_info/1}, \hyperpage{401}
+  \item \texttt  {get\_sdg\_subgoal\_info/1}, \hyperpage{402}
+  \item \texttt  {getenv/2}, \hyperpage{185}
+  \item \texttt  {getrand/1}, \hyperpage{544}
+  \item \texttt  {ground/1}, \hyperpage{201}
+  \item \texttt  {ground\_and\_acyclic/1}, \hyperpage{201}
+  \item \texttt  {ground\_or\_cyclic/1}, \hyperpage{201}
+  \item \texttt  {hilog\_arg/3}, \hyperpage{215}
+  \item \texttt  {hilog\_functor/3}, \hyperpage{212}
+  \item \texttt  {hilog\_op/3}, \hyperpage{271}
+  \item \texttt  {hilog\_symbol/1}, \hyperpage{270}
+  \item \texttt  {if/1}, \hyperpage{64}
+  \item \texttt  {include/1}, \hyperpage{63}
+  \item \texttt  {incr\_assert/1}, \hyperpage{139}
+  \item \texttt  {incr\_asserta/1}, \hyperpage{139}
+  \item \texttt  {incr\_assertz/1}, \hyperpage{139}
+  \item \texttt  {incr\_directly\_depends/2}, \hyperpage{141}
+  \item \texttt  {incr\_invalid\_subgoals/1}, \hyperpage{143}
+  \item \texttt  {incr\_invalidate\_calls/1}, \hyperpage{140}
+  \item \texttt  {incr\_is\_invalid/1}, \hyperpage{144}
+  \item \texttt  {incr\_retract/1}, \hyperpage{139}
+  \item \texttt  {incr\_retractall/1}, \hyperpage{140}
+  \item \texttt  {incr\_trans\_depends/2}, \hyperpage{142}
+  \item \texttt  {incr\_trie\_intern/2}, \hyperpage{141}
+  \item \texttt  {incr\_trie\_uninternall/2}, \hyperpage{141}
+  \item \texttt  {index/2}, \hyperpage{286}
+  \item \texttt  {install\_attribute\_constraint\_hook/4}, 
+		\hyperpage{516}
+  \item \texttt  {install\_attribute\_portray\_hook/3}, \hyperpage{515}
+  \item \texttt  {install\_verify\_attribute\_handler/4}, 
+		\hyperpage{513}
+  \item \texttt  {install\_verify\_attribute\_handler/5}, 
+		\hyperpage{513}
+  \item \texttt  {instantiation\_error/4}, \hyperpage{445}
+  \item \texttt  {integer/1}, \hyperpage{207}
+  \item \texttt  {intern\_term/2}, \hyperpage{220}
+  \item \texttt  {invalidate\_tables\_for/2}, \hyperpage{324}
+  \item \texttt  {is/2}, \hyperpage{188}
+  \item \texttt  {is\_acyclic/1}, \hyperpage{222}
+  \item \texttt  {is\_attv/1}, \hyperpage{209}
+  \item \texttt  {is\_attv}{\texttt  {()}}, \hyperpage{460}
+  \item \texttt  {is\_charlist/1}, \hyperpage{208}
+  \item \texttt  {is\_charlist/2}, \hyperpage{208}
+  \item \texttt  {is\_cyclic/1}, \hyperpage{222}
+  \item \texttt  {is\_float}{\texttt  {()}}, \hyperpage{460}
+  \item \texttt  {is\_functor}{\texttt  {()}}, \hyperpage{460}
+  \item \texttt  {is\_incremental\_subgoal/1}, \hyperpage{141}
+  \item \texttt  {is\_int}{\texttt  {()}}, \hyperpage{460}
+  \item \texttt  {is\_list/1}, \hyperpage{208}
+  \item \texttt  {is\_list}{\texttt  {()}}, \hyperpage{460}
+  \item \texttt  {is\_most\_general\_term/1}, \hyperpage{209}
+  \item \texttt  {is\_nil}{\texttt  {()}}, \hyperpage{460}
+  \item \texttt  {is\_number\_atom/1}, \hyperpage{209}
+  \item \texttt  {is\_string}{\texttt  {()}}, \hyperpage{460}
+  \item \texttt  {is\_var}{\texttt  {()}}, \hyperpage{461}
+  \item \texttt  {ith/3}, \hyperpage{509}
+  \item \texttt  {keysort/2}, \hyperpage{204}
+  \item \texttt  {length/2}, \hyperpage{510}
+  \item \texttt  {library\_directory/1}, \hyperpage{36}
+  \item \texttt  {listing/0}, \hyperpage{267}
+  \item \texttt  {listing/1}, \hyperpage{268}
+  \item \texttt  {load\_csv/2}, \hyperpage{546}
+  \item \texttt  {load\_dsv/3}, \hyperpage{546}
+  \item \texttt  {load\_dyn/1}, \hyperpage{292}
+  \item \texttt  {load\_dyn/2}, \hyperpage{293}
+  \item \texttt  {load\_dync/1}, \hyperpage{293}
+  \item \texttt  {load\_dync/2}, \hyperpage{294}
+  \item \texttt  {load\_forest\_log/1}, \hyperpage{387}
+  \item \texttt  {load\_in\_db/2}, \hyperpage{552}
+  \item \texttt  {load\_in\_db/3}, \hyperpage{551}
+  \item \texttt  {local\_datime/1}, \hyperpage{184}
+  \item \texttt  {log/1}, \hyperpage{192}
+  \item \texttt  {log10/1}, \hyperpage{192}
+  \item \texttt  {log\_forest/2}, \hyperpage{385}
+  \item \texttt  {log\_ith/3}, \hyperpage{510}
+  \item \texttt  {log\_ith\_bound/3}, \hyperpage{510}
+  \item \texttt  {log\_ith\_new/3}, \hyperpage{510}
+  \item \texttt  {log\_ith\_to\_list/2}, \hyperpage{510}
+  \item \texttt  {max/2}, \hyperpage{190}
+  \item \texttt  {member/2}, \hyperpage{509}
+  \item \texttt  {member2/2}, \hyperpage{512}
+  \item \texttt  {memberchk/2}, \hyperpage{509}
+  \item \texttt  {merge/3}, \hyperpage{511}
+  \item \texttt  {message/1}, \hyperpage{176}
+  \item \texttt  {message\_queue\_create/2}, \hyperpage{349}
+  \item \texttt  {message\_queue\_destroy/1}, \hyperpage{349}
+  \item \texttt  {messageln/1}, \hyperpage{176}
+  \item \texttt  {min/2}, \hyperpage{190}
+  \item \texttt  {misc\_error/1}, \hyperpage{446}
+  \item \texttt  {mod/2}, \hyperpage{191}
+  \item \texttt  {module\_of\_term/2}, \hyperpage{553}
+  \item \texttt  {module\_property/2}, \hyperpage{267}
+  \item \texttt  {morph\_dep\_graph/3}, \hyperpage{408}
+  \item \texttt  {mutex\_create/1}, \hyperpage{352}
+  \item \texttt  {mutex\_destroy/1}, \hyperpage{353}
+  \item \texttt  {mutex\_lock/1}, \hyperpage{353}
+  \item \texttt  {mutex\_property/2}, \hyperpage{355}
+  \item \texttt  {mutex\_trylock/1}, \hyperpage{354}
+  \item \texttt  {mutex\_unlock/1}, \hyperpage{354}
+  \item \texttt  {mutex\_unlock\_all/0}, \hyperpage{355}
+  \item \texttt  {name/2}, \hyperpage{225}
+  \item \texttt  {new\_trie/1}, \hyperpage{367}
+  \item \texttt  {nl/0}, \hyperpage{166}
+  \item \texttt  {nl/1}, \hyperpage{166}
+  \item \texttt  {nodebug/0}, \hyperpage{377}
+  \item \texttt  {nonvar/1}, \hyperpage{206}
+  \item \texttt  {nospy/1}, \hyperpage{377}
+  \item \texttt  {not/1}, \hyperpage{193}
+  \item \texttt  {not\_exists/1}, \hyperpage{194}
+  \item \texttt  {notrace/0}, \hyperpage{374}
+  \item \texttt  {number/1}, \hyperpage{207}
+  \item \texttt  {number\_chars/2}, \hyperpage{227}
+  \item \texttt  {number\_codes/2}, \hyperpage{224}
+  \item \texttt  {number\_digits/2}, \hyperpage{228}
+  \item \texttt  {numbervars/1}, \hyperpage{175}
+  \item \texttt  {numbervars/3}, \hyperpage{174}
+  \item \texttt  {numbervars/4}, \hyperpage{174}
+  \item \texttt  {once/1}, \hyperpage{243}
+  \item \texttt  {op/3}, \hyperpage{84}
+  \item \texttt  {open/3}, \hyperpage{151}
+  \item \texttt  {open/4}, \hyperpage{152}
+  \item \texttt  {otherwise/0}, \hyperpage{193}
+  \item \texttt  {p2c\_arity}{\texttt  {()}}, \hyperpage{461}
+  \item \texttt  {p2c\_float}{\texttt  {()}}, \hyperpage{461}
+  \item \texttt  {p2c\_functor}{\texttt  {()}}, \hyperpage{461}
+  \item \texttt  {p2c\_int}{\texttt  {()}}, \hyperpage{461}
+  \item \texttt  {p2c\_string}{\texttt  {()}}, \hyperpage{461}
+  \item \texttt  {p2p\_arg}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {p2p\_car}{\texttt  {()}}, \hyperpage{463}
+  \item \texttt  {p2p\_cdr}{\texttt  {()}}, \hyperpage{463}
+  \item \texttt  {p2p\_new}{\texttt  {()}}, \hyperpage{462}
+  \item \texttt  {p2p\_unify}{\texttt  {()}}, \hyperpage{464}
+  \item \texttt  {parse\_filename/4}, \hyperpage{524}
+  \item \texttt  {parsort/4}, \hyperpage{205}
+  \item \texttt  {path\_sysop/2}, \hyperpage{186, 187}
+  \item \texttt  {path\_sysop/3}, \hyperpage{186--188}
+  \item \texttt  {peek\_byte/1}, \hyperpage{164, 165}
+  \item \texttt  {peek\_char/1}, \hyperpage{163}
+  \item \texttt  {peek\_char/2}, \hyperpage{163}
+  \item \texttt  {peek\_code/1}, \hyperpage{164}
+  \item \texttt  {peek\_code/2}, \hyperpage{164}
+  \item \texttt  {perm/2}, \hyperpage{511}
+  \item \texttt  {permission\_error/4}, \hyperpage{445}
+  \item \texttt  {phrase/2}, \hyperpage{429}
+  \item \texttt  {phrase/3}, \hyperpage{429}
+  \item \texttt  {pi/0}, \hyperpage{192}
+  \item \texttt  {pid/1}, \hyperpage{525}
+  \item \texttt  {pipe\_open/2}, \hyperpage{531}
+  \item \texttt  {predicate\_property/2}, \hyperpage{265}
+  \item \texttt  {prepare/1}, \hyperpage{544}
+  \item \texttt  {pretty\_print/1}, \hyperpage{552}
+  \item \texttt  {pretty\_print/2}, \hyperpage{552}
+  \item \texttt  {print\_backtrace/1}, \hyperpage{449}
+  \item \texttt  {print\_dep\_graph/1}, \hyperpage{411}
+  \item \texttt  {print\_sdg\_info/0}, \hyperpage{411}
+  \item \texttt  {print\_sdg\_subgoal\_info/0}, \hyperpage{411}
+  \item \texttt  {print\_sdg\_subgoal\_info}, \hyperpage{441}
+  \item \texttt  {private\_foreign\_pred/0}, \hyperpage{473}
+  \item \texttt  {process\_control/2}, \hyperpage{529}
+  \item \texttt  {process\_status/2}, \hyperpage{529}
+  \item \texttt  {profile\_call/1}, \hyperpage{541}
+  \item \texttt  {profile\_mode\_call/1}, \hyperpage{542}
+  \item \texttt  {profile\_mode\_dump/0}, \hyperpage{543}
+  \item \texttt  {profile\_mode\_init/0}, \hyperpage{543}
+  \item \texttt  {profile\_unindexed\_calls/1}, \hyperpage{543}
+  \item \texttt  {prompt/2}, \hyperpage{273}
+  \item \texttt  {proper\_hilog/1}, \hyperpage{210}
+  \item \texttt  {put\_attr/3}, \hyperpage{513}
+  \item \texttt  {put\_char/1}, \hyperpage{165}
+  \item \texttt  {put\_char/2}, \hyperpage{165}
+  \item \texttt  {put\_code/1}, \hyperpage{166}
+  \item \texttt  {put\_code/2}, \hyperpage{165}
+  \item \texttt  {putenv/2}, \hyperpage{185}
+  \item \texttt  {random/1}, \hyperpage{544}
+  \item \texttt  {random/3}, \hyperpage{544}
+  \item \texttt  {randseq/3}, \hyperpage{545}
+  \item \texttt  {randset/3}, \hyperpage{545}
+  \item \texttt  {read/1}, \hyperpage{167}
+  \item \texttt  {read/2}, \hyperpage{167}
+  \item \texttt  {read\_canonical/1}, \hyperpage{167}
+  \item \texttt  {read\_canonical/2}, \hyperpage{168}
+  \item \texttt  {read\_term/2}, \hyperpage{168}
+  \item \texttt  {read\_term/3}, \hyperpage{168}
+  \item \texttt  {real/1}, \hyperpage{207}
+  \item \texttt  {reclaim\_uninterned\_rn/1}, \hyperpage{369}
+  \item \texttt  {reg\_term}{\texttt  {()}}, \hyperpage{464}
+  \item \texttt  {rem/2}, \hyperpage{191}
+  \item \texttt  {remove\_xsb\_hook/1}, \hyperpage{372}
+  \item \texttt  {repeat/0}, \hyperpage{197}
+  \item \texttt  {representation\_error/3}, \hyperpage{445}
+  \item \texttt  {resource\_error/3}, \hyperpage{445}
+  \item \texttt  {retract/1}, \hyperpage{283}
+  \item \texttt  {retractall/1}, \hyperpage{284}
+  \item \texttt  {retractall\_in\_db/3}, \hyperpage{551}
+  \item \texttt  {reverse/2}, \hyperpage{511}
+  \item \texttt  {round/1}, \hyperpage{192}
+  \item \texttt  {runtime\_loader\_flag/2}, \hyperpage{472}
+  \item \texttt  {same\_length/2}, \hyperpage{510}
+  \item \texttt  {scan/2}, \hyperpage{547}
+  \item \texttt  {scan/3}, \hyperpage{547}
+  \item \texttt  {see/1}, \hyperpage{158}
+  \item \texttt  {seeing/1}, \hyperpage{159}
+  \item \texttt  {seen/0}, \hyperpage{159}
+  \item \texttt  {select/3}, \hyperpage{511}
+  \item \texttt  {set\_arg/3}, \hyperpage{518}
+  \item \texttt  {set\_dcg\_style/1}, \hyperpage{432}
+  \item \texttt  {set\_dcg\_supported\_table/1}, \hyperpage{432}
+  \item \texttt  {set\_forest\_logging\_for\_pred/2}, \hyperpage{395}
+  \item \texttt  {set\_global\_compiler\_options/1}, \hyperpage{52}
+  \item \texttt  {set\_input/1}, \hyperpage{154}
+  \item \texttt  {set\_output/1}, \hyperpage{154}
+  \item \texttt  {set\_prolog\_flag/2}, \hyperpage{262}
+  \item \texttt  {set\_scan\_pars/1}, \hyperpage{547}
+  \item \texttt  {set\_stream\_position/2}, \hyperpage{156}
+  \item \texttt  {set\_timer/1}, \hyperpage{539}
+  \item \texttt  {setarg/3}, \hyperpage{518}
+  \item \texttt  {setof/3}, \hyperpage{236}
+  \item \texttt  {setrand/1}, \hyperpage{545}
+  \item \texttt  {shell/1}, \hyperpage{182}
+  \item \texttt  {shell/2}, \hyperpage{183}
+  \item \texttt  {shell/5}, \hyperpage{530}
+  \item \texttt  {shell\_to\_list/3}, \hyperpage{183}
+  \item \texttt  {shell\_to\_list/4}, \hyperpage{183}
+  \item \texttt  {sign/1}, \hyperpage{192}
+  \item \texttt  {sin/1}, \hyperpage{192}
+  \item \texttt  {sleep/1}, \hyperpage{185}, \hyperpage{539}
+  \item \texttt  {socket/2}, \hyperpage{534}
+  \item \texttt  {socket\_accept/3}, \hyperpage{535}
+  \item \texttt  {socket\_bind/3}, \hyperpage{535}
+  \item \texttt  {socket\_close/2}, \hyperpage{535}
+  \item \texttt  {socket\_connect/4}, \hyperpage{535}
+  \item \texttt  {socket\_get0/3}, \hyperpage{537}
+  \item \texttt  {socket\_listen/3}, \hyperpage{535}
+  \item \texttt  {socket\_put/3}, \hyperpage{537}
+  \item \texttt  {socket\_recv/3}, \hyperpage{536}
+  \item \texttt  {socket\_select/6}, \hyperpage{537}
+  \item \texttt  {socket\_select\_destroy/1}, \hyperpage{538}
+  \item \texttt  {socket\_send/3}, \hyperpage{536}
+  \item \texttt  {socket\_set\_option/3}, \hyperpage{534}
+  \item \texttt  {socket\_set\_select/4}, \hyperpage{537}
+  \item \texttt  {sort/2}, \hyperpage{203}
+  \item \texttt  {spawn\_process/5}, \hyperpage{525}
+  \item \texttt  {spy/1}, \hyperpage{377}
+  \item \texttt  {sqrt/1}, \hyperpage{192}
+  \item \texttt  {statistics/0}, \hyperpage{258}, \hyperpage{273}
+  \item \texttt  {statistics/1}, \hyperpage{258}, \hyperpage{277}
+  \item \texttt  {statistics/2}, \hyperpage{278}
+  \item \texttt  {storage\_commit/1}, \hyperpage{298}
+  \item \texttt  {storage\_delete\_fact/3}, \hyperpage{297}
+  \item \texttt  {storage\_delete\_fact\_bt/2}, \hyperpage{298}
+  \item \texttt  {storage\_delete\_keypair/3}, \hyperpage{296}
+  \item \texttt  {storage\_delete\_keypair\_bt/3}, \hyperpage{298}
+  \item \texttt  {storage\_find\_fact/2}, \hyperpage{297}
+  \item \texttt  {storage\_find\_keypair/3}, \hyperpage{297}
+  \item \texttt  {storage\_insert\_fact/3}, \hyperpage{297}
+  \item \texttt  {storage\_insert\_fact\_bt/2}, \hyperpage{298}
+  \item \texttt  {storage\_insert\_keypair/4}, \hyperpage{296}
+  \item \texttt  {storage\_insert\_keypair\_bt/4}, \hyperpage{297}
+  \item \texttt  {storage\_reclaim\_space/1}, \hyperpage{298}
+  \item \texttt  {str\_match/5}, \hyperpage{522}
+  \item \texttt  {str\_sub/3}, \hyperpage{522}
+  \item \texttt  {stream\_property/2}, \hyperpage{154}
+  \item \texttt  {string\_substitute/4}, \hyperpage{232}
+  \item \texttt  {structure/1}, \hyperpage{208}
+  \item \texttt  {sub\_atom/5 }, \hyperpage{230}
+  \item \texttt  {subseq/3}, \hyperpage{511}
+  \item \texttt  {substring/4}, \hyperpage{523}
+  \item \texttt  {subsumes/2}, \hyperpage{201}
+  \item \texttt  {subsumes\_chk/2}, \hyperpage{201}
+  \item \texttt  {subsumes\_term/2}, \hyperpage{202}
+  \item \texttt  {sys\_main\_memory/1}, \hyperpage{525}
+  \item \texttt  {tab/1}, \hyperpage{166}
+  \item \texttt  {table/1}, \hyperpage{88}, \hyperpage{138, 139}, 
+		\hyperpage{299}
+  \item \texttt  {table\_dump/2}, \hyperpage{388}, \hyperpage{396}
+  \item \texttt  {table\_dump/3}, \hyperpage{388}, \hyperpage{396}
+  \item \texttt  {table\_index/2}, \hyperpage{323}
+  \item \texttt  {table\_once/1}, \hyperpage{244}
+  \item \texttt  {table\_state/1}, \hyperpage{307}
+  \item \texttt  {table\_state/4}, \hyperpage{307}
+  \item \texttt  {tan/1}, \hyperpage{192}
+  \item \texttt  {tell/1}, \hyperpage{159}
+  \item \texttt  {telling/1}, \hyperpage{160}
+  \item \texttt  {term\_depth/2}, \hyperpage{219}
+  \item \texttt  {term\_expansion/2}, \hyperpage{425}, \hyperpage{430}
+  \item \texttt  {term\_hash/3}, \hyperpage{552}
+  \item \texttt  {term\_size/2}, \hyperpage{220}
+  \item \texttt  {term\_to\_atom/2}, \hyperpage{235}
+  \item \texttt  {term\_to\_atom/3}, \hyperpage{233}
+  \item \texttt  {term\_to\_codes/2}, \hyperpage{235}
+  \item \texttt  {term\_to\_codes/3 }, \hyperpage{235}
+  \item \texttt  {term\_variables/2}, \hyperpage{219}, \hyperpage{519}
+  \item \texttt  {tfindall/3}, \hyperpage{238}
+  \item \texttt  {thread\_cancel/1}, \hyperpage{345}
+  \item \texttt  {thread\_create/1}, \hyperpage{343}
+  \item \texttt  {thread\_create/2}, \hyperpage{343}
+  \item \texttt  {thread\_create/3}, \hyperpage{341}
+  \item \texttt  {thread\_detach/1}, \hyperpage{344}
+  \item \texttt  {thread\_disable\_cancel/0}, \hyperpage{347}
+  \item \texttt  {thread\_enable\_cancel/0}, \hyperpage{347}
+  \item \texttt  {thread\_exit/1}, \hyperpage{344}
+  \item \texttt  {thread\_get\_message/1}, \hyperpage{351}
+  \item \texttt  {thread\_get\_message/2}, \hyperpage{350}
+  \item \texttt  {thread\_join/2}, \hyperpage{343}
+  \item \texttt  {thread\_peek\_message/1}, \hyperpage{351}
+  \item \texttt  {thread\_peek\_message/2}, \hyperpage{351}
+  \item \texttt  {thread\_property/2}, \hyperpage{347}
+  \item \texttt  {thread\_self/1}, \hyperpage{344}
+  \item \texttt  {thread\_send\_message/2}, \hyperpage{350}
+  \item \texttt  {thread\_signal/2}, \hyperpage{346}
+  \item \texttt  {thread\_sleep/1}, \hyperpage{348}
+  \item \texttt  {thread\_yield/0}, \hyperpage{347}
+  \item \texttt  {three\_valued\_scc/1}, \hyperpage{394}
+  \item \texttt  {throw/1}, \hyperpage{444}
+  \item \texttt  {time/1}, \hyperpage{281}
+  \item \texttt  {timed\_call/2}, \hyperpage{247}, \hyperpage{414}
+  \item \texttt  {timed\_call\_cancel/0}, \hyperpage{251}
+  \item \texttt  {timed\_call\_modify/1}, \hyperpage{250}, 
+		\hyperpage{414}
+  \item \texttt  {tmpfile\_open/1}, \hyperpage{158}
+  \item \texttt  {tnot/1}, \hyperpage{104}, \hyperpage{194}
+  \item \texttt  {told/0}, \hyperpage{160}
+  \item \texttt  {tphrase/1}, \hyperpage{429}
+  \item \texttt  {tphrase\_set\_string/1}, \hyperpage{431}
+  \item \texttt  {tphrase\_set\_string\_auto\_abolish/1}, 
+		\hyperpage{431}
+  \item \texttt  {tphrase\_set\_string\_keeping\_tables/1}, 
+		\hyperpage{431}
+  \item \texttt  {trace/0}, \hyperpage{374}
+  \item \texttt  {trace/2}, \hyperpage{376}
+  \item \texttt  {trie\_bulk\_delete/2}, \hyperpage{365}
+  \item \texttt  {trie\_bulk\_insert/2}, \hyperpage{364}
+  \item \texttt  {trie\_bulk\_unify/3}, \hyperpage{366}
+  \item \texttt  {trie\_create/2}, \hyperpage{360}
+  \item \texttt  {trie\_delete/2}, \hyperpage{363}
+  \item \texttt  {trie\_drop/1}, \hyperpage{364}
+  \item \texttt  {trie\_insert/2}, \hyperpage{361}
+  \item \texttt  {trie\_intern/2}, \hyperpage{367}
+  \item \texttt  {trie\_intern/5}, \hyperpage{367}
+  \item \texttt  {trie\_interned/2}, \hyperpage{368}
+  \item \texttt  {trie\_interned/4}, \hyperpage{368}
+  \item \texttt  {trie\_property/2}, \hyperpage{366}
+  \item \texttt  {trie\_truncate/1}, \hyperpage{363}
+  \item \texttt  {trie\_unify/2}, \hyperpage{362}
+  \item \texttt  {trie\_unintern2}, \hyperpage{368}
+  \item \texttt  {trie\_unintern\_nr/2}, \hyperpage{368}
+  \item \texttt  {trimcore/0}, \hyperpage{273}
+  \item \texttt  {true/0}, \hyperpage{193}
+  \item \texttt  {truncate/1}, \hyperpage{192}
+  \item \texttt  {truth\_value/2}, \hyperpage{243}
+  \item \texttt  {type\_error/4}, \hyperpage{446}
+  \item \texttt  {u\_not/1}, \hyperpage{195}, \hyperpage{406, 407}
+  \item \texttt  {unifiable/3}, \hyperpage{200}, \hyperpage{518}
+  \item \texttt  {unify\_with\_occurs\_check/2}, \hyperpage{199}
+  \item \texttt  {union\_db/3}, \hyperpage{552}
+  \item \texttt  {unmark\_uninterned\_nr/2}, \hyperpage{369}
+  \item \texttt  {unnumbervars/3}, \hyperpage{175}
+  \item \texttt  {url\_decode/2}, \hyperpage{161}
+  \item \texttt  {url\_encode/2}, \hyperpage{160}
+  \item \texttt  {var/1}, \hyperpage{205}
+  \item \texttt  {variant/2}, \hyperpage{202}
+  \item \texttt  {variant\_get\_residual/2}, \hyperpage{305}, 
+		\hyperpage{405}
+  \item \texttt  {warning/1}, \hyperpage{175}
+  \item \texttt  {weibull/3}, \hyperpage{545}
+  \item \texttt  {when/2}, \hyperpage{517}
+  \item \texttt  {with\_mutex/2}, \hyperpage{352}
+  \item \texttt  {word/3}, \hyperpage{428}
+  \item \texttt  {write/1}, \hyperpage{171}
+  \item \texttt  {write/2}, \hyperpage{171}
+  \item \texttt  {write\_canonical/1}, \hyperpage{172}
+  \item \texttt  {write\_canonical/2}, \hyperpage{173}
+  \item \texttt  {write\_prolog/1}, \hyperpage{173}
+  \item \texttt  {write\_term/2}, \hyperpage{169}
+  \item \texttt  {write\_term/3}, \hyperpage{170}
+  \item \texttt  {writeln/1}, \hyperpage{173}
+  \item \texttt  {writeln/2}, \hyperpage{173}
+  \item \texttt  {writeq/1}, \hyperpage{172}
+  \item \texttt  {writeq/2}, \hyperpage{172}
+  \item \texttt  {xor/2}, \hyperpage{190}
+  \item \texttt  {xsb\_add\_c\_predicate}{\texttt  {()}}, 
+		\hyperpage{502}
+  \item \texttt  {xsb\_assert\_hook/1}, \hyperpage{372}
+  \item \texttt  {xsb\_backtrace/1}, \hyperpage{449}
+  \item \texttt  {xsb\_ccall\_thread\_create}{\texttt  {()}}, 
+		\hyperpage{503}
+  \item \texttt  {xsb\_close\_query}{\texttt  {()}}, \hyperpage{502}
+  \item \texttt  {xsb\_close}{\texttt  {()}}, \hyperpage{495}
+  \item \texttt  {xsb\_command\_string}{\texttt  {()}}, \hyperpage{496}
+  \item \texttt  {xsb\_command}{\texttt  {()}}, \hyperpage{496}
+  \item \texttt  {xsb\_configuration/2}, \hyperpage{262}, 
+		\hyperpage{269}
+  \item \texttt  {xsb\_domain\_error}{\texttt  {()}}, \hyperpage{477}
+  \item \texttt  {xsb\_error\_get\_backtrace/2}, \hyperpage{447}
+  \item \texttt  {xsb\_error\_get\_goal/2}, \hyperpage{447}
+  \item \texttt  {xsb\_error\_get\_goalatom/2}, \hyperpage{447}
+  \item \texttt  {xsb\_error\_get\_message/2}, \hyperpage{447}
+  \item \texttt  {xsb\_error\_get\_tid/2}, \hyperpage{447}
+  \item \texttt  {xsb\_existence\_error}{\texttt  {()}}, 
+		\hyperpage{477}
+  \item \texttt  {xsb\_exit\_hook/1}, \hyperpage{372}
+  \item \texttt  {xsb\_get\_error\_message}{\texttt  {()}}, 
+		\hyperpage{502, 503}
+  \item \texttt  {xsb\_get\_error\_type}{\texttt  {()}}, 
+		\hyperpage{503}
+  \item \texttt  {xsb\_get\_last\_answer\_string\_b}{\texttt  {()}}, 
+		\hyperpage{499}
+  \item \texttt  {xsb\_get\_main\_thread}{\texttt  {()}}, 
+		\hyperpage{503}
+  \item \texttt  {xsb\_init\_string}{\texttt  {()}}, \hyperpage{494}
+  \item \texttt  {xsb\_init}{\texttt  {()}}, \hyperpage{495}
+  \item \texttt  {xsb\_instantiation\_error}{\texttt  {()}}, 
+		\hyperpage{478}
+  \item \texttt  {xsb\_make\_vars}{\texttt  {()}}, \hyperpage{506}
+  \item \texttt  {xsb\_misc\_error}{\texttt  {()}}, \hyperpage{478}
+  \item \texttt  {xsb\_next\_string}{\texttt  {()}}, 
+		\hyperpage{500, 501}
+  \item \texttt  {xsb\_next}{\texttt  {()}}, \hyperpage{501}
+  \item \texttt  {xsb\_permission\_error}{\texttt  {()}}, 
+		\hyperpage{478}
+  \item \texttt  {xsb\_query\_restore}{\texttt  {()}}, \hyperpage{471}
+  \item \texttt  {xsb\_query\_save}{\texttt  {()}}, \hyperpage{471}
+  \item \texttt  {xsb\_query\_string\_string\_b}, \hyperpage{498}
+  \item \texttt  {xsb\_query\_string\_string}{\texttt  {()}}, 
+		\hyperpage{497}
+  \item \texttt  {xsb\_query\_string}{\texttt  {()}}, \hyperpage{499}
+  \item \texttt  {xsb\_query}{\texttt  {()}}, \hyperpage{498}
+  \item \texttt  {xsb\_resource\_error}{\texttt  {()}}, \hyperpage{479}
+  \item \texttt  {xsb\_retract\_hook/1}, \hyperpage{373}
+  \item \texttt  {xsb\_set\_var\_float}{\texttt  {()}}, \hyperpage{506}
+  \item \texttt  {xsb\_set\_var\_int}{\texttt  {()}}, \hyperpage{506}
+  \item \texttt  {xsb\_set\_var\_string}{\texttt  {()}}, 
+		\hyperpage{506}
+  \item \texttt  {xsb\_thread\_context\_to\_id}{\texttt  {()}}, 
+		\hyperpage{503}
+  \item \texttt  {xsb\_thread\_id\_to\_context}{\texttt  {()}}, 
+		\hyperpage{503}
+  \item \texttt  {xsb\_throw}{\texttt  {()}}, \hyperpage{479}
+  \item \texttt  {xsb\_type\_error}{\texttt  {()}}, \hyperpage{479}
+  \item \texttt  {xsb\_var\_float}{\texttt  {()}}, \hyperpage{507}
+  \item \texttt  {xsb\_var\_int}{\texttt  {()}}, \hyperpage{506}
+  \item \texttt  {xsb\_var\_string}{\texttt  {()}}, \hyperpage{507}
+  \item \texttt{!/0}, \hyperpage{241}, \hyperpage{423, 424}, 
+		\hyperpage{431}
+  \item \texttt{$\backslash$+/1}, \hyperpage{104}
+  \item \texttt{->/2}, \hyperpage{196}
+  \item \texttt{do\_all/1}, \hyperpage{197}
+  \item 64-bit architectures, \hyperpage{13}, \hyperpage{452}, 
+		\hyperpage{507}
+
+  \indexspace
+
+  \item abort
+    \subitem trace facility, \hyperpage{375}
+  \item abstraction of terms
+    \subitem answer, \hyperpage{122}, \hyperpage{126}
+    \subitem size metric, \hyperpage{124}
+    \subitem subgoal, \hyperpage{122}, \hyperpage{125}
+  \item acc (compiler), \hyperpage{10}
+  \item aggregate predicates
+    \subitem prolog, \hyperpage{236}
+  \item aliases
+    \subitem message queues, \hyperpage{348}
+    \subitem mutexes, \hyperpage{352}
+    \subitem streams, \hyperpage{149}
+      \subsubitem user\_error, \hyperpage{149}
+      \subsubitem user\_input, \hyperpage{149}
+      \subsubitem user\_message, \hyperpage{149}
+      \subsubitem user\_output, \hyperpage{149}
+      \subsubitem user\_warning, \hyperpage{149}
+    \subitem threads, \hyperpage{341}
+    \subitem tries, \hyperpage{360}
+  \item answer abstraction, \hyperpage{116}
+  \item answer substitution, \hyperpage{309}
+  \item attributed variables, \hyperpage{4}, \hyperpage{92}, 
+		\hyperpage{144}, \hyperpage{171}, \hyperpage{173, 174}, 
+		\hyperpage{208}, \hyperpage{219, 220}, \hyperpage{256}, 
+		\hyperpage{385}
+
+  \indexspace
+
+  \item backtrackable updates, \hyperpage{296--298}
+  \item base file name, \hyperpage{22}
+  \item bounded rationality, \hyperpage{122}, \hyperpage{126}
+  \item break level, \hyperpage{375}, \hyperpage{446}
+  \item byte code
+    \subitem files
+      \subsubitem compiler, \hyperpage{50}
+
+  \indexspace
+
+  \item canonical format, \hyperpage{48}, \hyperpage{172}, 
+		\hyperpage{293}
+  \item cc (compiler), \hyperpage{10}
+  \item character code constancts, \hyperpage{74}
+  \item character sets, \hyperpage{151}, \hyperpage{257}
+  \item Code authors
+    \subitem Warren, David S., \hyperpage{550}
+  \item compilation
+    \subitem conditional
+      \subsubitem gpp, \hyperpage{54}
+      \subsubitem Prolog directives, \hyperpage{63}
+  \item compiler, \hyperpage{50}
+    \subitem \texttt{cmplib}, \hyperpage{50}
+    \subitem directives, \hyperpage{62}
+    \subitem inlines, \hyperpage{70}
+    \subitem invoking, \hyperpage{50}
+    \subitem options, \hyperpage{52}
+    \subitem specialization, \hyperpage{60}
+  \item compiler   options
+    \subitem \texttt{xpp\_on}, \hyperpage{53}
+  \item compiler options
+    \subitem \texttt{mi\_warn}, \hyperpage{59}
+    \subitem \texttt{modeinfer}, \hyperpage{59}
+    \subitem \texttt{optimize}, \hyperpage{53}
+    \subitem \texttt{spec\_dump}, \hyperpage{59}
+    \subitem \texttt{spec\_off}, \hyperpage{59}
+    \subitem \texttt{spec\_repr}, \hyperpage{58}
+    \subitem \texttt{ti\_dump}, \hyperpage{59}
+    \subitem \texttt{ti\_long\_names}, \hyperpage{59}
+    \subitem \texttt{unfold\_off}, \hyperpage{59}
+  \item configuration, \hyperpage{8}
+  \item Constraint Handling Rules, \hyperpage{4}
+  \item control, \hyperpage{193}
+  \item CP1252, \hyperpage{151}
+  \item cut, \hyperpage{193}, \hyperpage{241}, \hyperpage{423, 424}, 
+		\hyperpage{431}
+
+  \indexspace
+
+  \item debugger, \hyperpage{374}
+    \subitem ports, \hyperpage{374}
+  \item declarations
+    \subitem \texttt{auto\_table}, \hyperpage{58}, \hyperpage{66}, 
+		\hyperpage{91}
+    \subitem \texttt{document\_export/1}, \hyperpage{31}
+    \subitem \texttt{document\_import/1}, \hyperpage{31}
+    \subitem \texttt{import/1}, \hyperpage{39}
+    \subitem \texttt{index/2}, \hyperpage{68}
+    \subitem \texttt{multifile/2}, \hyperpage{49}
+    \subitem \texttt{suppl\_table}, \hyperpage{58}, \hyperpage{67}, 
+		\hyperpage{91}
+    \subitem \texttt{table\ as}, \hyperpage{94}
+  \item definite clause grammars, \hyperpage{423}
+    \subitem datalog mode, \hyperpage{428}
+    \subitem list mode, \hyperpage{427}
+    \subitem style, \hyperpage{433}
+  \item directives
+    \subitem Compiler, \hyperpage{62}
+    \subitem indexing, \hyperpage{68}
+    \subitem modes, \hyperpage{64}
+    \subitem tabling, \hyperpage{66}
+  \item dynamic loading of files, \hyperpage{48}
+
+  \indexspace
+
+  \item emulator
+    \subitem command line options, \hyperpage{40}
+  \item errors with position, \hyperpage{257}
+  \item exceptions, \hyperpage{434--450}
+
+  \indexspace
+
+  \item Flora-2, \hyperpage{6}, \hyperpage{221}
+  \item floundering, \hyperpage{194, 195}
+
+  \indexspace
+
+  \item garbage collection, \hyperpage{44, 45}, \hyperpage{255}
+    \subitem atoms, \hyperpage{235}
+    \subitem dynamic clauses, \hyperpage{286}
+    \subitem heap, \hyperpage{273}
+    \subitem tables, \hyperpage{322}
+  \item gcc, \hyperpage{10}
+  \item GPP, \hyperpage{50}, \hyperpage{53}
+    \subitem \texttt{gpp\_include\_dir}, \hyperpage{53}
+    \subitem \texttt{gpp\_options}, \hyperpage{54}
+    \subitem \texttt{quit\_on\_error}, \hyperpage{58}
+    \subitem \texttt{xpp\_dump/N}, \hyperpage{55}
+    \subitem \texttt{xpp\_dump}, \hyperpage{54}
+    \subitem \texttt{xpp\_on/N}, \hyperpage{55}
+  \item grammars
+    \subitem definite clause, \hyperpage{423}
+
+  \indexspace
+
+  \item Incremental Dependency Graph (IDG), \hyperpage{132}, 
+		\hyperpage{136}, \hyperpage{141}, \hyperpage{279}, 
+		\hyperpage{319}, \hyperpage{405}, \hyperpage{412}
+  \item indexing, \hyperpage{281--283}, \hyperpage{286}, 
+		\hyperpage{387}
+    \subitem composite, \hyperpage{288}
+    \subitem directives, \hyperpage{68}
+    \subitem dynamic predicates, \hyperpage{286}
+    \subitem hash-based, \hyperpage{286}
+    \subitem multiple-argument, \hyperpage{288}
+    \subitem star, \hyperpage{4}, \hyperpage{288}
+    \subitem transformational, \hyperpage{69}
+    \subitem trie-based, \hyperpage{288}, \hyperpage{356}
+  \item inlines
+    \subitem Compiler, \hyperpage{70}
+  \item installation into shared directories, \hyperpage{8}
+  \item Interface
+    \subitem InterProlog, \hyperpage{11}
+    \subitem ODBC, \hyperpage{11}
+    \subitem Oracle, \hyperpage{11}
+    \subitem SModels, \hyperpage{11}
+  \item interned terms, \hyperpage{220}
+  \item InterProlog, \hyperpage{4}
+    \subitem Interface, \hyperpage{11}
+  \item interrupt instruction, \hyperpage{542}
+  \item invoking the Compiler, \hyperpage{50}
+  \item ISO
+    \subitem errors, \hyperpage{441}
+  \item ISO Compatibility, \hyperpage{71}
+
+  \indexspace
+
+  \item LATIN-1, \hyperpage{151}
+  \item LD\_LIBRARY\_PATH, \hyperpage{472}
+  \item LIBPATH, \hyperpage{472}
+  \item load search path, \hyperpage{35}
+  \item low-level tracing, \hyperpage{379}
+
+  \indexspace
+
+  \item memory management, \hyperpage{45}
+  \item message queues, \hyperpage{333}
+  \item mode analysis
+    \subitem compiler options, \hyperpage{59}
+  \item modes
+    \subitem directives, \hyperpage{64}
+  \item multi-threading, \hyperpage{4}, \hyperpage{326--355}
+  \item mutexes
+    \subitem user defined, \hyperpage{351}
+
+  \indexspace
+
+  \item negation
+    \subitem stable models, \hyperpage{112}
+    \subitem stratified, \hyperpage{102}
+    \subitem unstratified, \hyperpage{106}
+  \item notational conventions, \hyperpage{7}
+
+  \indexspace
+
+  \item occurs check, \hyperpage{198}, \hyperpage{220}, \hyperpage{257}
+  \item ODBC Interface, \hyperpage{4}, \hyperpage{11}
+  \item options
+    \subitem command line arguments, \hyperpage{40}
+    \subitem compiler, \hyperpage{52}
+  \item Oracle Interface, \hyperpage{11}
+
+  \indexspace
+
+  \item packages, \hyperpage{38}
+    \subitem \texttt{bootstrap\_userpackage/3}, \hyperpage{38}
+    \subitem \texttt{package\_configuration/2}, \hyperpage{39}
+    \subitem \texttt{unload\_package/1}, \hyperpage{39}
+  \item permanent variables, \hyperpage{449}
+  \item predicate indicator, \hyperpage{252, 253}
+  \item preprocessing, \hyperpage{50}
+  \item Prolog  flags
+    \subitem {\tt max\_table\_subgoal\_size}, \hyperpage{126}
+  \item Prolog flags, \hyperpage{253}
+    \subitem {\tt atom\_garbage\_collection}, \hyperpage{235}, 
+		\hyperpage{255}
+    \subitem {\tt backtrace\_on\_error}, \hyperpage{255}, 
+		\hyperpage{449}
+    \subitem {\tt bounded}, \hyperpage{254}
+    \subitem {\tt character\_set}, \hyperpage{257}
+    \subitem {\tt clause\_garbage\_collection}, \hyperpage{255}
+    \subitem {\tt dcg\_style}, \hyperpage{255}
+    \subitem {\tt debug}, \hyperpage{254}
+    \subitem {\tt dialect}, \hyperpage{254}
+    \subitem {\tt double\_quotes}, \hyperpage{254}
+    \subitem {\tt errors\_with\_position}, \hyperpage{257}
+    \subitem {\tt exception\_action}, \hyperpage{188}, \hyperpage{257}
+    \subitem {\tt exception\_pre\_action}, \hyperpage{258}, 
+		\hyperpage{308}, \hyperpage{441}
+    \subitem {\tt goal}, \hyperpage{255}
+    \subitem {\tt heap\_garbage\_collection}, \hyperpage{255}, 
+		\hyperpage{273}
+    \subitem {\tt heap\_margin}, \hyperpage{255}
+    \subitem {\tt integer\_rounding\_function}, \hyperpage{254}
+    \subitem {\tt max\_answer\_list\_action}, \hyperpage{220}
+    \subitem {\tt max\_answer\_list\_depth}, \hyperpage{220}
+    \subitem {\tt max\_answer\_term\_action}, \hyperpage{220}
+    \subitem {\tt max\_answer\_term\_depth}, \hyperpage{220}
+    \subitem {\tt max\_answers\_for\_subgoal\_action}, \hyperpage{259}
+    \subitem {\tt max\_answers\_for\_subgoal}, \hyperpage{259}
+    \subitem {\tt max\_incomplete\_subgoals\_action}, \hyperpage{258}
+    \subitem {\tt max\_incomplete\_subgoals}, \hyperpage{258}
+    \subitem {\tt max\_integer}, \hyperpage{254}
+    \subitem {\tt max\_memory}, \hyperpage{46}, \hyperpage{260}
+    \subitem {\tt max\_queue\_size}, \hyperpage{261}
+    \subitem {\tt max\_scc\_subgoals\_action}, \hyperpage{258}
+    \subitem {\tt max\_scc\_subgoals}, \hyperpage{258}
+    \subitem {\tt max\_tab\_usage}, \hyperpage{258}
+    \subitem {\tt max\_table\_answer\_action}, \hyperpage{129}
+    \subitem {\tt max\_table\_answer\_size\_action}, \hyperpage{259}
+    \subitem {\tt max\_table\_answer\_size}, \hyperpage{129}, 
+		\hyperpage{259}
+    \subitem {\tt max\_table\_subgoal\_action}, \hyperpage{126}, 
+		\hyperpage{220}
+    \subitem {\tt max\_table\_subgoal\_depth}, \hyperpage{220}
+    \subitem {\tt max\_table\_subgoal\_size\_action}, \hyperpage{258}
+    \subitem {\tt max\_table\_subgoal\_size}, \hyperpage{258}
+    \subitem {\tt max\_threads}, \hyperpage{261}, \hyperpage{328}
+    \subitem {\tt min\_integer}, \hyperpage{254}
+    \subitem {\tt shared\_predicates}, \hyperpage{261}
+    \subitem {\tt table\_gc\_action}, \hyperpage{255}, \hyperpage{315}, 
+		\hyperpage{317--319}
+    \subitem {\tt thread\_complsize}, \hyperpage{261}, \hyperpage{342}
+    \subitem {\tt thread\_detached}, \hyperpage{261}, \hyperpage{342}
+    \subitem {\tt thread\_glsize}, \hyperpage{261}, \hyperpage{342}
+    \subitem {\tt thread\_pdlsize}, \hyperpage{261}, \hyperpage{342}
+    \subitem {\tt thread\_tcpsize}, \hyperpage{261}, \hyperpage{342}
+    \subitem {\tt tracing}, \hyperpage{256}
+    \subitem {\tt unify\_with\_occurs\_check}, \hyperpage{198}, 
+		\hyperpage{220}, \hyperpage{257}
+    \subitem {\tt unknown}, \hyperpage{29}, \hyperpage{254}
+    \subitem {\tt version\_data}, \hyperpage{254}
+    \subitem {\tt warning\_action}, \hyperpage{175}, \hyperpage{256}
+    \subitem {\tt write\_attributes}, \hyperpage{171}, \hyperpage{256}
+    \subitem {\tt write\_depth}, \hyperpage{256}
+  \item Prolog-commons, \hyperpage{253}
+  \item Prologs
+    \subitem hProlog, \hyperpage{512}
+    \subitem SWI, \hyperpage{281}, \hyperpage{512}
+    \subitem YAP, \hyperpage{281}
+
+  \indexspace
+
+  \item Random Variables, \hyperpage{544}
+    \subitem Exponential, \hyperpage{545}
+    \subitem Normal, \hyperpage{545}
+    \subitem Weibull, \hyperpage{545}
+  \item residual dependency graph, \hyperpage{130}, \hyperpage{141}, 
+		\hyperpage{405}, \hyperpage{412}
+  \item residual program, \hyperpage{111}, \hyperpage{305}, 
+		\hyperpage{405}, \hyperpage{412}
+  \item restraint
+    \subitem answer count, \hyperpage{129}
+    \subitem radial, \hyperpage{127}, \hyperpage{407}
+  \item ReturnHandle, \hyperpage{299}
+
+  \indexspace
+
+  \item scheduling strategy, \hyperpage{11}
+  \item sets, bags, \hyperpage{236}
+  \item shared\_predicates, \hyperpage{44}, \hyperpage{262}, 
+		\hyperpage{329}
+  \item Silk, \hyperpage{221}
+  \item skeleton, \hyperpage{299}
+  \item SModels Interface, \hyperpage{11}
+  \item source file designator, \hyperpage{22}
+  \item specialization
+    \subitem Compiler, \hyperpage{60}
+    \subitem compiler options, \hyperpage{58}
+  \item stable models, \hyperpage{110}
+  \item stacks
+    \subitem default sizes, \hyperpage{40}
+    \subitem expanding, \hyperpage{40}
+  \item standard predicates, \hyperpage{39}, \hyperpage{53}, 
+		\hyperpage{59}
+  \item state of the system, \hyperpage{252}
+  \item streams, \hyperpage{148}
+    \subitem STDDBG, \hyperpage{150}
+    \subitem STDERR, \hyperpage{150}, \hyperpage{175}, \hyperpage{255}, 
+		\hyperpage{447}
+    \subitem STDFDBK, \hyperpage{150}, \hyperpage{175}
+    \subitem STDIN, \hyperpage{150}
+    \subitem STDMSG, \hyperpage{150}, \hyperpage{176}
+    \subitem STDOUT, \hyperpage{150}, \hyperpage{175}
+    \subitem STDWARN, \hyperpage{150}, \hyperpage{175}
+    \subitem system, \hyperpage{150}, \hyperpage{158}
+  \item strongly connected components (SCCs), \hyperpage{96}, 
+		\hyperpage{308}, \hyperpage{384}, \hyperpage{439}, 
+		\hyperpage{441}
+  \item substitution factor, \hyperpage{309}
+  \item syntax
+    \subitem atoms, \hyperpage{75}
+    \subitem escaped characters, \hyperpage{75}
+    \subitem floats, \hyperpage{75}
+    \subitem integers, \hyperpage{73}
+      \subsubitem binary, \hyperpage{73}
+      \subsubitem hexidecimal, \hyperpage{73}
+      \subsubitem octal, \hyperpage{73}
+  \item system, state of, \hyperpage{252}
+
+  \indexspace
+
+  \item table\_index, \hyperpage{323}
+  \item tabled subgoals
+    \subitem complete, \hyperpage{104}
+    \subitem incomplete, \hyperpage{104}, \hyperpage{279}
+  \item TableEntryHandle, \hyperpage{299}
+  \item tabling
+    \subitem abolishes, \hyperpage{317}, \hyperpage{320--322}
+      \subsubitem incremental, \hyperpage{319, 320}
+      \subsubitem multi-threading, \hyperpage{317}, 
+		\hyperpage{319--321}
+      \subsubitem transitive vs. single, \hyperpage{317, 318}
+    \subitem and exceptions, \hyperpage{258}, \hyperpage{308}, 
+		\hyperpage{439}
+    \subitem answer completion, \hyperpage{109}
+    \subitem answer subsumption, \hyperpage{91}, \hyperpage{113--115}, 
+		\hyperpage{117}, \hyperpage{144}, \hyperpage{265}, 
+		\hyperpage{299}
+    \subitem automatic, \hyperpage{58}
+    \subitem call subsumption, \hyperpage{40}, \hyperpage{44}, 
+		\hyperpage{91, 92}, \hyperpage{94}, \hyperpage{144}, 
+		\hyperpage{265}, \hyperpage{273}, \hyperpage{299}, 
+		\hyperpage{302}, \hyperpage{309, 310}
+      \subsubitem interaction with meta-logical predicates, 
+		\hyperpage{100}
+    \subitem call variance, \hyperpage{91, 92}, \hyperpage{144}, 
+		\hyperpage{265}, \hyperpage{273}, \hyperpage{299}, 
+		\hyperpage{302}, \hyperpage{309, 310}
+    \subitem compiler options, \hyperpage{58}
+    \subitem complete evaluation, \hyperpage{103}, \hyperpage{389}
+    \subitem conditional answers, \hyperpage{106}, \hyperpage{315}, 
+		\hyperpage{317}
+    \subitem consumer, \hyperpage{88}
+    \subitem cuts, \hyperpage{98}
+    \subitem declarations, \hyperpage{138}
+    \subitem directives, \hyperpage{66}, \hyperpage{299}
+    \subitem dynamic predicates, \hyperpage{299}
+    \subitem early completion of subgoals, \hyperpage{104}, 
+		\hyperpage{384}, \hyperpage{389}
+    \subitem incremental, \hyperpage{130}, \hyperpage{138}, 
+		\hyperpage{144}, \hyperpage{265}, \hyperpage{273}, 
+		\hyperpage{299}, \hyperpage{317}, \hyperpage{361}
+      \subsubitem invalid subgoals, \hyperpage{132}
+    \subitem interned terms, \hyperpage{94}
+    \subitem multi-threaded, \hyperpage{316, 317}
+    \subitem negation, \hyperpage{102}
+    \subitem opaque, \hyperpage{138}, \hyperpage{299}
+    \subitem private, \hyperpage{299}
+    \subitem producer,   generator, \hyperpage{88}
+    \subitem scheduling strategies, \hyperpage{95}
+    \subitem shared, \hyperpage{44}, \hyperpage{299}
+    \subitem similarity measures, \hyperpage{91}
+    \subitem strategy selection, \hyperpage{299}
+    \subitem supplemental, \hyperpage{58}
+    \subitem table abolishing, \hyperpage{314}
+    \subitem table inspection, \hyperpage{302}, \hyperpage{309}
+  \item Tck/Tk, \hyperpage{11}
+  \item term depth
+    \subitem definition, \hyperpage{219}
+  \item term indicator, \hyperpage{252, 253}
+  \item term size, \hyperpage{258}
+    \subitem definition, \hyperpage{220}
+  \item termination, \hyperpage{67}, \hyperpage{90, 91}
+    \subitem answer count restraint, \hyperpage{122}
+    \subitem answer subsumption, \hyperpage{114}
+    \subitem radial restraint, \hyperpage{122}, \hyperpage{258}, 
+		\hyperpage{406, 407}
+    \subitem subgoal abstraction, \hyperpage{122}, \hyperpage{258}
+  \item terms
+    \subitem comparison of, \hyperpage{198}
+    \subitem cyclic, \hyperpage{198}, \hyperpage{201}, 
+		\hyperpage{219, 220}, \hyperpage{257}, \hyperpage{361}, 
+		\hyperpage{365}
+    \subitem unification of, \hyperpage{198}
+  \item thread
+    \subitem thread status, \hyperpage{332}
+    \subitem valid, \hyperpage{331}
+  \item trace
+    \subitem logging, \hyperpage{376}
+    \subitem options, \hyperpage{375}
+  \item tracing, \hyperpage{374--387}
+    \subitem low-level, \hyperpage{379}
+    \subitem Prolog Program
+      \subsubitem Controls, \hyperpage{379}
+    \subitem Prolog Programs, \hyperpage{374}
+  \item transaction logic, \hyperpage{295}
+  \item tries
+    \subitem and incremental tabling, \hyperpage{135}
+    \subitem asserted, \hyperpage{286}
+      \subsubitem indexing, \hyperpage{288}
+    \subitem depth limit, \hyperpage{221}
+    \subitem interned, \hyperpage{356--370}
+  \item tripwires, \hyperpage{258}, \hyperpage{413}
+    \subitem max\_answers\_for\_subgoal, \hyperpage{129}, 
+		\hyperpage{422}
+    \subitem max\_incomplete\_subgoals, \hyperpage{421}
+    \subitem max\_memory, \hyperpage{414}
+    \subitem max\_scc\_subgoals, \hyperpage{421}
+    \subitem max\_table\_answer\_size, \hyperpage{125}, \hyperpage{128}, 
+		\hyperpage{421}
+    \subitem max\_table\_subgoal\_size, \hyperpage{421}
+    \subitem timed call, \hyperpage{246}, \hyperpage{414}
+
+  \indexspace
+
+  \item Unicode
+    \subitem UTF-8, \hyperpage{75}, \hyperpage{151}, \hyperpage{161}, 
+		\hyperpage{166}, \hyperpage{223}, \hyperpage{226}, 
+		\hyperpage{235}
+  \item unification factoring
+    \subitem compiler options, \hyperpage{59}
+  \item Unknown predicate handling, \hyperpage{254}
+
+  \indexspace
+
+  \item VarString, \hyperpage{504}
+  \item view consistency, \hyperpage{133}, \hyperpage{315}
+
+  \indexspace
+
+  \item well-founded semantics, \hyperpage{109}
+
+  \indexspace
+
+  \item XASP, \hyperpage{6}, \hyperpage{11}
+  \item xsbdoc, \hyperpage{6}, \hyperpage{31}
+  \item xsbrc.P initialization file, \hyperpage{36}
+
+\end{theindex}

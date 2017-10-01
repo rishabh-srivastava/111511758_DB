@@ -1,0 +1,157 @@
+\indexentry{\texttt{odbc\_open/3}|hyperpage}{3}
+\indexentry{\texttt{odbc\_close/0}|hyperpage}{3}
+\indexentry{\texttt{odbc\_open/4}|hyperpage}{3}
+\indexentry{\texttt{odbc\_close/1}|hyperpage}{3}
+\indexentry{\texttt{odbc\_data\_sources/2}|hyperpage}{3}
+\indexentry{\texttt{odbc\_sql/3}|hyperpage}{4}
+\indexentry{\texttt{odbc\_sql/4}|hyperpage}{4}
+\indexentry{\texttt{odbc\_sql\_cnt/4}|hyperpage}{5}
+\indexentry{\texttt{findall\_odbc\_sql/4}|hyperpage}{5}
+\indexentry{\texttt{findall\_odbc\_sql/3}|hyperpage}{5}
+\indexentry{\texttt{odbc\_import/2}|hyperpage}{6}
+\indexentry{\texttt{odbc\_import/4}|hyperpage}{7}
+\indexentry{\texttt{odbc\_query/2}|hyperpage}{10}
+\indexentry{\texttt{odbc\_query/3}|hyperpage}{13}
+\indexentry{\texttt{odbc\_insert/\{2,3\}}|hyperpage}{13}
+\indexentry{\texttt{odbc\_delete/\{2,3\}}|hyperpage}{14}
+\indexentry{\texttt{odbc\_show\_schema/1}|hyperpage}{14}
+\indexentry{\texttt{odbc\_get\_schema/2}|hyperpage}{14}
+\indexentry{\texttt{odbc\_create\_table/2}|hyperpage}{15}
+\indexentry{\texttt{odbc\_create\_index/3}|hyperpage}{15}
+\indexentry{\texttt{odbc\_delete\_table/1}|hyperpage}{15}
+\indexentry{\texttt{odbc\_delete\_view/1}|hyperpage}{15}
+\indexentry{\texttt{odbc\_delete\_index/1}|hyperpage}{15}
+\indexentry{\texttt{odbc\_transaction/1}|hyperpage}{15}
+\indexentry{\texttt{set\_odbc\_flag/2}|hyperpage}{16}
+\indexentry{\texttt{odbc\_flag/2}|hyperpage}{16}
+\indexentry{Code authors!Carlsson, Mats|hyperpage}{30}
+\indexentry{Code authors!O'Keefe, Richard|hyperpage}{31}
+\indexentry{Code authors!Carlsson, Mats|hyperpage}{31}
+\indexentry{Code authors!O'Keefe, Richard|hyperpage}{32}
+\indexentry{\texttt{see/1}|hyperpage}{41}
+\indexentry{\texttt{see/1}|hyperpage}{41}
+\indexentry{\texttt{open/3}|hyperpage}{41}
+\indexentry{\texttt{open/4}|hyperpage}{41}
+\indexentry{\texttt{close/3}|hyperpage}{41}
+\indexentry{\texttt{close/4}|hyperpage}{42}
+\indexentry{\texttt{load\_page/5}|hyperpage}{42}
+\indexentry{\texttt{url\_properties/3}|hyperpage}{42}
+\indexentry{\texttt{url\_properties/2}|hyperpage}{42}
+\indexentry{\texttt{encode\_url/2}|hyperpage}{43}
+\indexentry{\texttt{get\_redir\_url/2}|hyperpage}{43}
+\indexentry{\texttt{CDATA}|hyperpage}{46}
+\indexentry{\texttt{load\_sgml\_structure/3}|hyperpage}{47}
+\indexentry{\texttt{load\_xml\_structure/3}|hyperpage}{47}
+\indexentry{\texttt{load\_html\_structure/3}|hyperpage}{47}
+\indexentry{\texttt{load\_xhtml\_structure/3}|hyperpage}{47}
+\indexentry{\texttt{load\_structure/4}|hyperpage}{47}
+\indexentry{\texttt{CDATA}|hyperpage}{47}
+\indexentry{\texttt{NAMES}|hyperpage}{47}
+\indexentry{\texttt{NUMBER}|hyperpage}{47}
+\indexentry{\texttt{SDATA}|hyperpage}{48}
+\indexentry{\texttt{NDATA}|hyperpage}{48}
+\indexentry{\texttt{xml}|hyperpage}{48}
+\indexentry{\texttt{sgml}|hyperpage}{48}
+\indexentry{\texttt{xmlns}|hyperpage}{48}
+\indexentry{\texttt{token}|hyperpage}{48}
+\indexentry{\texttt{integer}|hyperpage}{48}
+\indexentry{\texttt{false}|hyperpage}{49}
+\indexentry{\texttt{sgml} space mode|hyperpage}{49}
+\indexentry{\texttt{default} space mode|hyperpage}{50}
+\indexentry{\texttt{preserve} space mode|hyperpage}{50}
+\indexentry{\texttt{sgml}|hyperpage}{50}
+\indexentry{\texttt{xml}|hyperpage}{50}
+\indexentry{\texttt{preserve} space mode|hyperpage}{50}
+\indexentry{\texttt{remove} space mode|hyperpage}{50}
+\indexentry{\texttt{xmlns} dialect|hyperpage}{51}
+\indexentry{\texttt{new\_dtd/2}|hyperpage}{51}
+\indexentry{\texttt{free\_dtd/1}|hyperpage}{51}
+\indexentry{\texttt{open\_dtd/3}|hyperpage}{51}
+\indexentry{\texttt{dtd/3}|hyperpage}{52}
+\indexentry{\texttt{doctype}|hyperpage}{52}
+\indexentry{\texttt{dtd/3}|hyperpage}{52}
+\indexentry{\texttt{new\_sgml\_parser/2}|hyperpage}{52}
+\indexentry{\texttt{free\_sgml\_parser/1}|hyperpage}{52}
+\indexentry{\texttt{set\_sgml\_parser/2}|hyperpage}{52}
+\indexentry{\texttt{sgml}|hyperpage}{53}
+\indexentry{\texttt{xml}|hyperpage}{53}
+\indexentry{\texttt{xmlns}|hyperpage}{53}
+\indexentry{\texttt{sgml\_parse/3}|hyperpage}{54}
+\indexentry{\texttt{file}|hyperpage}{54}
+\indexentry{\texttt{element}|hyperpage}{54}
+\indexentry{\texttt{declaration}|hyperpage}{54}
+\indexentry{\texttt{informational}|hyperpage}{54}
+\indexentry{\texttt{DOCTYPE} declaration|hyperpage}{55}
+\indexentry{\texttt{parse\_xpath/4}|hyperpage}{58}
+\indexentry{Prologs!SWI|hyperpage}{64}
+\indexentry{\texttt{\{\}/1}|hyperpage}{66}
+\indexentry{\texttt{entailed/1}|hyperpage}{67}
+\indexentry{\texttt{inf/2}|hyperpage}{67}
+\indexentry{\texttt{sup/2}|hyperpage}{67}
+\indexentry{\texttt{minimize/1}|hyperpage}{67}
+\indexentry{\texttt{maximize/1}|hyperpage}{67}
+\indexentry{\texttt{inf/4}|hyperpage}{68}
+\indexentry{\texttt{sup/4}|hyperpage}{68}
+\indexentry{\texttt{bb\_inf/4}|hyperpage}{69}
+\indexentry{\texttt{bb\_inf/3}|hyperpage}{69}
+\indexentry{\texttt{dump/3}|hyperpage}{70}
+\indexentry{projecting\_assert/1|hyperpage}{70}
+\indexentry{constraints!asserting dynamic code with|hyperpage}{70}
+\indexentry{Prologs!Sicstus|hyperpage}{71}
+\indexentry{Prologs!SWI|hyperpage}{71}
+\indexentry{\texttt{in/2}|hyperpage}{73}
+\indexentry{\texttt{\#>/2}|hyperpage}{73}
+\indexentry{\texttt{\#</2}|hyperpage}{73}
+\indexentry{\texttt{\#>=/2}|hyperpage}{73}
+\indexentry{\texttt{\#=</2}|hyperpage}{73}
+\indexentry{\texttt{\#=/2}|hyperpage}{73}
+\indexentry{\texttt{\#>/2}|hyperpage}{73}
+\indexentry{\texttt{\#>/2}|hyperpage}{74}
+\indexentry{\texttt{\#>/2}|hyperpage}{74}
+\indexentry{\texttt{all\_different/1}|hyperpage}{74}
+\indexentry{\texttt{sum/3}|hyperpage}{74}
+\indexentry{\texttt{labelling/2}|hyperpage}{74}
+\indexentry{\texttt{label/1}|hyperpage}{75}
+\indexentry{\texttt{indomain/1}|hyperpage}{75}
+\indexentry{\texttt{serialized/2}|hyperpage}{75}
+\indexentry{\texttt{lex\_chain/1}|hyperpage}{75}
+\indexentry{\texttt{load\_chr/1}|hyperpage}{81}
+\indexentry{\texttt{preprocess/2}|hyperpage}{81}
+\indexentry{\texttt{show\_store/1}|hyperpage}{81}
+\indexentry{\texttt{suspended\_constraints/2}|hyperpage}{81}
+\indexentry{\texttt{merge\_answer\_store/1}|hyperpage}{88}
+\indexentry{\texttt{get\_chr\_store/1}|hyperpage}{88}
+\indexentry{\texttt{set\_chr\_store/1}|hyperpage}{88}
+\indexentry{\texttt{get\_chr\_answer\_store/1}|hyperpage}{88}
+\indexentry{\texttt{smcInit/0}|hyperpage}{96}
+\indexentry{\texttt{smcReInit}|hyperpage}{96}
+\indexentry{\texttt{smcAddRule/2}|hyperpage}{96}
+\indexentry{\texttt{smcRetractRule/2}|hyperpage}{96}
+\indexentry{\texttt{smcCompute/1}|hyperpage}{96}
+\indexentry{\texttt{smcCommitProgram/0}|hyperpage}{97}
+\indexentry{\texttt{smcComputeModel/0}|hyperpage}{97}
+\indexentry{\texttt{smcExamineModel/2}|hyperpage}{97}
+\indexentry{\texttt{smcEnd/0}|hyperpage}{97}
+\indexentry{\texttt{print\_cache/0}|hyperpage}{97}
+\indexentry{\texttt{init\_smodels/1}|hyperpage}{99}
+\indexentry{\texttt{atom\_handle/2}|hyperpage}{99}
+\indexentry{\texttt{in\_all\_stable\_models/2}|hyperpage}{99}
+\indexentry{\texttt{pstable\_model/3}|hyperpage}{99}
+\indexentry{\texttt{a\_stable\_model/0}|hyperpage}{99}
+\indexentry{\texttt{in\_current\_stable\_model/1}|hyperpage}{99}
+\indexentry{\texttt{current\_stable\_model/1}|hyperpage}{99}
+\indexentry{\texttt{print\_current\_stable\_model/0}|hyperpage}{99}
+\indexentry{PITA|hyperpage}{100}
+\indexentry{Logic Programs with Annotated Disjunction|hyperpage}{100}
+\indexentry{CP-logic|hyperpage}{100}
+\indexentry{LPADs|hyperpage}{100}
+\indexentry{PRISM|hyperpage}{100}
+\indexentry{Probabilistic Logic Programming|hyperpage}{100}
+\indexentry{Possibilistic Logic Programming|hyperpage}{100}
+\indexentry{FLIP|hyperpage}{104}
+\indexentry{FLORID|hyperpage}{104}
+\indexentry{local scheduling in XSB|hyperpage}{106}
+\indexentry{runflora script|hyperpage}{106}
+\indexentry{WFSX|hyperpage}{107}
+\indexentry{negation!explicit negation|hyperpage}{107}
+\indexentry{Generalized Annotated Programs|hyperpage}{110}

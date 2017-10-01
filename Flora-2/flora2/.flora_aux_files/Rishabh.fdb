@@ -1,0 +1,102 @@
+#include "flrheader.flh"
+#define FLORA_COMPILATION_ID 7
+
+
+FLORA_THIS_WORKSPACE(tblflapply)(company,'QUE',150000,30,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'John Smyth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'Bill Doe',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'Anne Smyle',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'QUE','John Smyth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'QUE','Bill Doe',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'QUE','Anne Smyle',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'QUE','Software',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'QUE','Accounting',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','QUE','RHC',10000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','QUE','Elgog',20000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','QUE','Elpa',30000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'RHC',250000,20,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'RHC','Bill Doe',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'Bill Seth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'RHC','Bill Seth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'Steve Lamp',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'RHC','Steve Lamp',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'QUE','Accounting',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'Alf',10000000,700,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'May Serge',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Alf','May Serge',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'Bill Doe',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'Bill Public',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Alf','Bill Public',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'QUE','Software',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'QUE','Automotive',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','QUE','Ydex',-100000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','QUE','Elgog',400000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','QUE','Elpa',100000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'Elgog',1000000,400,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Elgog','May Serge',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Elgog','Bill Pubic',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Elgog','Steve Lamp',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Elgog','Software',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Elgog','Search',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Elgog','Ohay',5000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'Tfos',10000000,300,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Tfos','Anne Smyle',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Tfos','Bill Seth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Tfos','Steve Lamp',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Tfos','Software',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Tfos','Hardware',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Tfos','Ohay',30000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Tfos','Gnow',50000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Tfos','QUE',200000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'Ohay',180000,50,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Ohay','Anne Smyle',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Ohay','Bill Seth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(person,'Muck Lain',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Ohay','Muck Lain',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Ohay','Search',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'Gnow',150000,300,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Gnow','Anne Smyle',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Gnow','Bill Seth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Gnow','John Smyth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Gnow','Search',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'Elpa',9000000,300,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Elpa','John Smyth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Elpa','Bill Seth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Elpa','Muck Lain',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Elpa','Software',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Elpa','Hardware',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Elpa','Tfos',20000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Elpa','Elgog',30000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,'Ydex',5000000,100,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Ydex','May Serge',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Ydex','Muck Lain',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(board,'Ydex','John Smyth',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Ydex','Software',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(industry,'Ydex','Search',__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Doe','Tfos',30000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Doe','Elpa',100000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Seth','Gnow',40000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Seth','Elgog',20000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','John Smyth','QUE',20000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','John Smyth','RHC',20000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','John Smyth','Tfos',800000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Anne Smyle','RHC',30000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Anne Smyle','Tfos',40000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Anne Smyle','Alf',500000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Steve Lamp','Elpa',90000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Steve Lamp','QUE',50000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Steve Lamp','Ohay',50000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Steve Lamp','RHC',70000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','May Serge','Elpa',-10000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','May Serge','Ydex',-40000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','May Serge','Alf',500000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','May Serge','RHC',40000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Public','Gnow',80000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Pubic','Elgog',30000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Public','QUE',30000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Public','Tfos',300000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Bill Public','RHC',-9000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Muck Lain','RHC',60000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Muck Lain','Ohay',-40000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Muck Lain','Ydex',-80000,__newcontextvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns','Muck Lain','Elpa',30000,__newcontextvar3).

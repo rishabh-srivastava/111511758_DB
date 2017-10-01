@@ -1,0 +1,15 @@
+#include "flrheader.flh"
+#include "flr_fld_standardtypes.flh"
+
+FLORA_THIS_WORKSPACE(tblflapply)(industry,__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Q1',__fldnewvar1,__fldnewvar2,__fldnewvar3,__fldnewvar4).
+FLORA_THIS_WORKSPACE(tblflapply)(person,__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q7',__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Q3',__fldnewvar1,__fldnewvar2,__fldnewvar3,__fldnewvar4).
+FLORA_THIS_WORKSPACE(tblflapply)('Q4',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q6',__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)(company,__fldnewvar1,__fldnewvar2,__fldnewvar3,__fldnewvar4).
+FLORA_THIS_WORKSPACE(tblflapply)('Q2',__fldnewvar1,__fldnewvar2).
+FLORA_THIS_WORKSPACE(tblflapply)('Q5',__fldnewvar1,__fldnewvar2,__fldnewvar3).
+FLORA_THIS_WORKSPACE(tblflapply)('Owns',__fldnewvar1,__fldnewvar2,__fldnewvar3,__fldnewvar4).
+FLORA_THIS_WORKSPACE(tblflapply)(board,__fldnewvar1,__fldnewvar2,__fldnewvar3).

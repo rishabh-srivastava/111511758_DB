@@ -1,0 +1,90 @@
+
+
+            INSTALLATION SUMMARY
+            --------------------
+
+XSB Version:	   3.7.0
+Code name:	   Clan MacGregor
+Release date:	   2016-07-06
+Configuration:	   x86_64-unknown-linux-gnu
+Installation date: Thu Sep  7 21:05:31 EDT 2017
+
+  Build process is looking for XSB sources in:	  /home/kifer/XSB/XSB-git/XSB
+  XSB should be installed in:			  /home/kifer/XSB/XSB-git/XSB
+  Configuration-specific executables go in:	  /home/kifer/XSB/XSB-git/XSB/config/x86_64-unknown-linux-gnu/bin
+  Configuration-specific libraries go in:	  /home/kifer/XSB/XSB-git/XSB/config/x86_64-unknown-linux-gnu/lib
+  Object code goes in:				  /home/kifer/XSB/XSB-git/XSB/config/x86_64-unknown-linux-gnu/saved.o
+  Site-specific code goes in:			  /home/kifer/XSB/XSB-git/XSB/site
+  Site configuration-specific code goes in:	  /home/kifer/XSB/XSB-git/XSB/site/config/x86_64-unknown-linux-gnu
+  XSB will be built with:			  gcc   -I/usr/java/jdk/include  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe   
+  builtin.c will be built with: 		  gcc  -I/usr/java/jdk/include  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  loader_xsb.c will be built with: 		  gcc  -I/usr/java/jdk/include  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  emuloop.c will be built with: 		  gcc  -I/usr/java/jdk/include  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  tr_utils.c will be built with:		  gcc  -I/usr/java/jdk/include  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  Loader flags: 				  -lm -ldl -Wl,-export-dynamic -lpthread
+  Compilation mode:				  optimal
+  XSB abstract machine: 			  slg-wam
+  XSB scheduling strategy:			  local
+  Garbage Collection Stress-Test:		  no
+  Jumptable-based emulator loop:		  yes
+  Demand support:                                 no
+
+  Details of support for modular database drivers:
+
+  ODBC support:                                   yes
+  ODBC library directory:                         
+  ODBC C Flags:                                   
+  ODBC Loader Flags:                              
+
+  MySQL support:                                  yes
+  MySQL library directory:                        /usr/lib/x86_64-linux-gnu
+  MySQL header directory:                         /usr/include/mysql
+  MySQL C Flags:                                  -I/usr/include/mysql 
+  MySQL Loader Flags:                             -L/usr/lib/x86_64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -ldl
+
+  MySQL Embedded Server support:                  yes
+  MySQL Embedded Server library directory:        /usr/lib/x86_64-linux-gnu
+  MySQL Embedded Server header directory:         /usr/include/mysql
+  MySQL Embedded Server C Flags:                  -g -W -Wall -I/usr/include/mysql -g -O2
+  MySQL Embedded Server Loader Flags:             -L/usr/lib/x86_64-linux-gnu -lmysqld -lpthread -lz -lm -lrt -lcrypt -ldl -laio -llz4 -lnuma 
+
+  Native support for Oracle:			  no
+  Support for the old ODBC driver:		  no
+
+  Java compiler:                                  /usr/java/jdk/bin/javac
+  Support for InterProlog's native engine:	  yes
+
+  POSIX regexp matching libraries:                yes
+  POSIX wildcard matching libraries:              yes
+
+  Curl support (HTTP protocol library):           yes
+  Curl C flags:        	                          -g -O2
+  Curl loader flags:                              
+
+  XPath support:				  yes
+  XPath C flags:				  -I/usr/include/libxml2
+  XPath loader flags:				  -L/usr/lib -lxml2
+
+  PCRE support (Perl pattern matching):           yes
+  PCRE C flags:        	                          -g -O2
+  PCRE loader flags:                              
+
+
+
+make[1]: Entering directory '/home/kifer/XSB/XSB-git/XSB/emu'
+-e 
+Compiling XSB with gcc using -I/usr/java/jdk/include  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe   
+
+
+Making XSB executable /home/kifer/XSB/XSB-git/XSB/config/x86_64-unknown-linux-gnu/bin/xsb 
+
+-e 	[gcc] -o /home/kifer/XSB/XSB-git/XSB/config/x86_64-unknown-linux-gnu/bin/xsb -lm -ldl -Wl,-export-dynamic -lpthread 
+system_xsb.o: In function `sys_system':
+system_xsb.c:(.text+0xd1d): warning: the use of `tempnam' is dangerous, better use `mkstemp'
+make[1]: Leaving directory '/home/kifer/XSB/XSB-git/XSB/emu'
+make[1]: Entering directory '/home/kifer/XSB/XSB-git/XSB/gpp'
+-e 	[gcc] -o gpp
+
+make[1]: Leaving directory '/home/kifer/XSB/XSB-git/XSB/gpp'
+
+

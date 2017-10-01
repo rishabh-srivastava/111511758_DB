@@ -1,0 +1,59 @@
+flora_symbol(indirectly_endorsed,2,\@,992,163,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Quality Assurance',0,\@,331,54,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Schmoozing',0,\@,265,47,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u1,0,\@,17,21,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u2,0,\@,57,26,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('--- Query 1: endorsement by a co-worker ---',0,\@,1102,182,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Carol',0,\@,134,33,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q3',1,\@,642,108,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Asgard',0,\@,442,66,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Microsoft',0,\@,82,28,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Programming',0,\@,42,23,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q2',1,\@,595,97,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q1',2,\@,491,79,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Google',0,\@,234,45,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(+,2,\@,781,124,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q7',1,\@,981,162,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Thor',0,\@,434,65,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('EBay',0,\@,295,51,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('--- Query 6: Users with > than average # of endorsements ---',0,\@,1180,197,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('--- Query 5: Average number of endorsements ---',0,\@,1165,194,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('--- Query 2: Bogus endorsements ---',0,\@,1120,185,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Bob',0,\@,60,26,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Skill',0,\@,718,113,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u3,0,\@,123,31,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Dave',0,\@,185,39,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('IBM',0,\@,142,34,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(endorse,3,\@,103,30,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Instructor',0,\@,52,24,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q4_alt2',1,\@,839,131,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Mallory',0,\@,339,56,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(skill,2,\@,37,23,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Basketball',0,\@,392,60,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(experience,4,\@,23,22,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('--- Query 7: Endorsements with no reciprocity ---',0,\@,1195,200,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(-,2,\@,985,162,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Hammer Wielding',0,\@,472,69,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Oracle',0,\@,347,57,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('--- Query 4: Numerically more skilled users ---',0,\@,1150,191,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(directly_endorsed,2,\@,1002,164,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q5',1,\@,911,146,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q4_alt',1,\@,778,124,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q4',1,\@,724,118,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Frank',0,\@,273,49,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u4,0,\@,182,39,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Boxing',0,\@,99,29,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Q6',1,\@,925,152,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u8,0,\@,431,65,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u7,0,\@,336,56,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Eve',0,\@,226,44,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Stony Brook',0,\@,28,22,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('--- Query 3: Strictly more skilled users ---',0,\@,1135,188,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(avgNumberOfEndorsements,1,\@,865,136,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(user,2,\@,15,21,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(writeln,1,'\\io',1100,182,predicate_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Managenemt',0,\@,155,35,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Alice',0,\@,20,21,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u6,0,\@,262,47,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol('Paypal',0,\@,248,46,function_symbol,nontransactional_symbol,'LinkedOut.flr').
+flora_symbol(u5,0,\@,223,44,function_symbol,nontransactional_symbol,'LinkedOut.flr').

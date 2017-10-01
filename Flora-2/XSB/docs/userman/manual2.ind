@@ -1,0 +1,174 @@
+\begin{theindex}
+
+  \item \texttt{CDATA}, \hyperpage{46, 47}
+  \item \texttt{DOCTYPE} declaration, \hyperpage{55}
+  \item \texttt{NAMES}, \hyperpage{47}
+  \item \texttt{NDATA}, \hyperpage{48}
+  \item \texttt{NUMBER}, \hyperpage{47}
+  \item \texttt{SDATA}, \hyperpage{48}
+  \item \texttt{\#</2}, \hyperpage{73}
+  \item \texttt{\#=/2}, \hyperpage{73}
+  \item \texttt{\#=</2}, \hyperpage{73}
+  \item \texttt{\#>/2}, \hyperpage{73, 74}
+  \item \texttt{\#>=/2}, \hyperpage{73}
+  \item \texttt{\{\}/1}, \hyperpage{66}
+  \item \texttt{a\_stable\_model/0}, \hyperpage{99}
+  \item \texttt{all\_different/1}, \hyperpage{74}
+  \item \texttt{atom\_handle/2}, \hyperpage{99}
+  \item \texttt{bb\_inf/3}, \hyperpage{69}
+  \item \texttt{bb\_inf/4}, \hyperpage{69}
+  \item \texttt{close/3}, \hyperpage{41}
+  \item \texttt{close/4}, \hyperpage{42}
+  \item \texttt{current\_stable\_model/1}, \hyperpage{99}
+  \item \texttt{declaration}, \hyperpage{54}
+  \item \texttt{default} space mode, \hyperpage{50}
+  \item \texttt{doctype}, \hyperpage{52}
+  \item \texttt{dtd/3}, \hyperpage{52}
+  \item \texttt{dump/3}, \hyperpage{70}
+  \item \texttt{element}, \hyperpage{54}
+  \item \texttt{encode\_url/2}, \hyperpage{43}
+  \item \texttt{entailed/1}, \hyperpage{67}
+  \item \texttt{false}, \hyperpage{49}
+  \item \texttt{file}, \hyperpage{54}
+  \item \texttt{findall\_odbc\_sql/3}, \hyperpage{5}
+  \item \texttt{findall\_odbc\_sql/4}, \hyperpage{5}
+  \item \texttt{free\_dtd/1}, \hyperpage{51}
+  \item \texttt{free\_sgml\_parser/1}, \hyperpage{52}
+  \item \texttt{get\_chr\_answer\_store/1}, \hyperpage{88}
+  \item \texttt{get\_chr\_store/1}, \hyperpage{88}
+  \item \texttt{get\_redir\_url/2}, \hyperpage{43}
+  \item \texttt{in/2}, \hyperpage{73}
+  \item \texttt{in\_all\_stable\_models/2}, \hyperpage{99}
+  \item \texttt{in\_current\_stable\_model/1}, \hyperpage{99}
+  \item \texttt{indomain/1}, \hyperpage{75}
+  \item \texttt{inf/2}, \hyperpage{67}
+  \item \texttt{inf/4}, \hyperpage{68}
+  \item \texttt{informational}, \hyperpage{54}
+  \item \texttt{init\_smodels/1}, \hyperpage{99}
+  \item \texttt{integer}, \hyperpage{48}
+  \item \texttt{label/1}, \hyperpage{75}
+  \item \texttt{labelling/2}, \hyperpage{74}
+  \item \texttt{lex\_chain/1}, \hyperpage{75}
+  \item \texttt{load\_chr/1}, \hyperpage{81}
+  \item \texttt{load\_html\_structure/3}, \hyperpage{47}
+  \item \texttt{load\_page/5}, \hyperpage{42}
+  \item \texttt{load\_sgml\_structure/3}, \hyperpage{47}
+  \item \texttt{load\_structure/4}, \hyperpage{47}
+  \item \texttt{load\_xhtml\_structure/3}, \hyperpage{47}
+  \item \texttt{load\_xml\_structure/3}, \hyperpage{47}
+  \item \texttt{maximize/1}, \hyperpage{67}
+  \item \texttt{merge\_answer\_store/1}, \hyperpage{88}
+  \item \texttt{minimize/1}, \hyperpage{67}
+  \item \texttt{new\_dtd/2}, \hyperpage{51}
+  \item \texttt{new\_sgml\_parser/2}, \hyperpage{52}
+  \item \texttt{odbc\_close/0}, \hyperpage{3}
+  \item \texttt{odbc\_close/1}, \hyperpage{3}
+  \item \texttt{odbc\_create\_index/3}, \hyperpage{15}
+  \item \texttt{odbc\_create\_table/2}, \hyperpage{15}
+  \item \texttt{odbc\_data\_sources/2}, \hyperpage{3}
+  \item \texttt{odbc\_delete/\{2,3\}}, \hyperpage{14}
+  \item \texttt{odbc\_delete\_index/1}, \hyperpage{15}
+  \item \texttt{odbc\_delete\_table/1}, \hyperpage{15}
+  \item \texttt{odbc\_delete\_view/1}, \hyperpage{15}
+  \item \texttt{odbc\_flag/2}, \hyperpage{16}
+  \item \texttt{odbc\_get\_schema/2}, \hyperpage{14}
+  \item \texttt{odbc\_import/2}, \hyperpage{6}
+  \item \texttt{odbc\_import/4}, \hyperpage{7}
+  \item \texttt{odbc\_insert/\{2,3\}}, \hyperpage{13}
+  \item \texttt{odbc\_open/3}, \hyperpage{3}
+  \item \texttt{odbc\_open/4}, \hyperpage{3}
+  \item \texttt{odbc\_query/2}, \hyperpage{10}
+  \item \texttt{odbc\_query/3}, \hyperpage{13}
+  \item \texttt{odbc\_show\_schema/1}, \hyperpage{14}
+  \item \texttt{odbc\_sql/3}, \hyperpage{4}
+  \item \texttt{odbc\_sql/4}, \hyperpage{4}
+  \item \texttt{odbc\_sql\_cnt/4}, \hyperpage{5}
+  \item \texttt{odbc\_transaction/1}, \hyperpage{15}
+  \item \texttt{open/3}, \hyperpage{41}
+  \item \texttt{open/4}, \hyperpage{41}
+  \item \texttt{open\_dtd/3}, \hyperpage{51}
+  \item \texttt{parse\_xpath/4}, \hyperpage{58}
+  \item \texttt{preprocess/2}, \hyperpage{81}
+  \item \texttt{preserve} space mode, \hyperpage{50}
+  \item \texttt{print\_cache/0}, \hyperpage{97}
+  \item \texttt{print\_current\_stable\_model/0}, \hyperpage{99}
+  \item \texttt{pstable\_model/3}, \hyperpage{99}
+  \item \texttt{remove} space mode, \hyperpage{50}
+  \item \texttt{see/1}, \hyperpage{41}
+  \item \texttt{serialized/2}, \hyperpage{75}
+  \item \texttt{set\_chr\_store/1}, \hyperpage{88}
+  \item \texttt{set\_odbc\_flag/2}, \hyperpage{16}
+  \item \texttt{set\_sgml\_parser/2}, \hyperpage{52}
+  \item \texttt{sgml\_parse/3}, \hyperpage{54}
+  \item \texttt{sgml}, \hyperpage{48}, \hyperpage{50}, \hyperpage{53}
+  \item \texttt{sgml} space mode, \hyperpage{49}
+  \item \texttt{show\_store/1}, \hyperpage{81}
+  \item \texttt{smcAddRule/2}, \hyperpage{96}
+  \item \texttt{smcCommitProgram/0}, \hyperpage{97}
+  \item \texttt{smcCompute/1}, \hyperpage{96}
+  \item \texttt{smcComputeModel/0}, \hyperpage{97}
+  \item \texttt{smcEnd/0}, \hyperpage{97}
+  \item \texttt{smcExamineModel/2}, \hyperpage{97}
+  \item \texttt{smcInit/0}, \hyperpage{96}
+  \item \texttt{smcReInit}, \hyperpage{96}
+  \item \texttt{smcRetractRule/2}, \hyperpage{96}
+  \item \texttt{sum/3}, \hyperpage{74}
+  \item \texttt{sup/2}, \hyperpage{67}
+  \item \texttt{sup/4}, \hyperpage{68}
+  \item \texttt{suspended\_constraints/2}, \hyperpage{81}
+  \item \texttt{token}, \hyperpage{48}
+  \item \texttt{url\_properties/2}, \hyperpage{42}
+  \item \texttt{url\_properties/3}, \hyperpage{42}
+  \item \texttt{xmlns}, \hyperpage{48}, \hyperpage{53}
+  \item \texttt{xmlns} dialect, \hyperpage{51}
+  \item \texttt{xml}, \hyperpage{48}, \hyperpage{50}, \hyperpage{53}
+
+  \indexspace
+
+  \item Code authors
+    \subitem Carlsson, Mats, \hyperpage{30, 31}
+    \subitem O'Keefe, Richard, \hyperpage{31, 32}
+  \item constraints
+    \subitem asserting dynamic code with, \hyperpage{70}
+  \item CP-logic, \hyperpage{100}
+
+  \indexspace
+
+  \item FLIP, \hyperpage{104}
+  \item FLORID, \hyperpage{104}
+
+  \indexspace
+
+  \item Generalized Annotated Programs, \hyperpage{110}
+
+  \indexspace
+
+  \item local scheduling in XSB, \hyperpage{106}
+  \item Logic Programs with Annotated Disjunction, \hyperpage{100}
+  \item LPADs, \hyperpage{100}
+
+  \indexspace
+
+  \item negation
+    \subitem explicit negation, \hyperpage{107}
+
+  \indexspace
+
+  \item PITA, \hyperpage{100}
+  \item Possibilistic Logic Programming, \hyperpage{100}
+  \item PRISM, \hyperpage{100}
+  \item Probabilistic Logic Programming, \hyperpage{100}
+  \item projecting\_assert/1, \hyperpage{70}
+  \item Prologs
+    \subitem Sicstus, \hyperpage{71}
+    \subitem SWI, \hyperpage{64}, \hyperpage{71}
+
+  \indexspace
+
+  \item runflora script, \hyperpage{106}
+
+  \indexspace
+
+  \item WFSX, \hyperpage{107}
+
+\end{theindex}

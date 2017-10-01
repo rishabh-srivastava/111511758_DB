@@ -1,0 +1,227 @@
+
+/*
+   // describes users of LinkedOut
+   user(Id: symbol, Name: symbol)
+   Key: Id
+
+   // describes users' work experience (worked for organization, from/to)
+   experience(Id: symbol, Organization: symbol, From: date, To: date)
+   Key: Id, From, To
+
+   // describes users' declared skills
+   skill(Id: symbol, Skill: symbol)
+   Key: Id, Skill
+
+   // some users endorsed others for certain skills
+   endorse(Id: symbol, Endorsee: symbol, Skill: symbol).
+   Key: Id, Endorsee, Skill
+*/
+/*
+
+company(CName: symbol, Shares: symbol, SharePrice: symbol)
+Key: CName
+
+person(PName: symbol)
+Key: PName
+
+board(CName: symbol,PName: symbol)
+Key: CName, PName
+
+industry(CName: symbol,Type: symbol)
+Key: CName, Type
+
+owns(OName: symbol, CName: symbol, Shares: symbol)
+*/
+
+company(QUE, 150000, 30).
+person('John Smyth').
+person('Bill Doe').
+person('Anne Smyle').
+board(QUE, 'John Smyth').
+board(QUE, 'Bill Doe').
+board(QUE, 'Anne Smyle').
+industry(QUE, Software).
+industry(QUE, Accounting).
+Owns(QUE, RHC, 10000).
+Owns(QUE, Elgog, 20000).
+Owns(QUE, Elpa, 30000).
+
+company(RHC, 250000, 20).
+board(RHC, 'Bill Doe').
+person('Bill Seth').
+board(RHC, 'Bill Seth').
+person('Steve Lamp').
+board(RHC, 'Steve Lamp').
+industry(QUE, Accounting).
+
+company(Alf, 10000000, 700).
+person('May Serge').
+board(Alf, 'May Serge').
+person('Bill Doe').
+person('Bill Public').
+board(Alf, 'Bill Public').
+industry(QUE, Software).
+industry(QUE, Automotive).
+Owns(QUE, Ydex, -100000).
+Owns(QUE, Elgog, 400000).
+Owns(QUE, Elpa, 100000).
+
+company(Elgog, 1000000, 400).
+board(Elgog, 'May Serge').
+board(Elgog, 'Bill Pubic').
+board(Elgog, 'Steve Lamp').
+industry(Elgog, Software).
+industry(Elgog, Search).
+Owns(Elgog, Ohay, 5000).
+
+company(Tfos, 10000000, 300).
+board(Tfos, 'Anne Smyle').
+board(Tfos, 'Bill Seth').
+board(Tfos, 'Steve Lamp').
+industry(Tfos, Software).
+industry(Tfos, Hardware).
+Owns(Tfos, Ohay, 30000).
+Owns(Tfos, Gnow, 50000).
+Owns(Tfos, QUE, 200000).
+
+company(Ohay, 180000, 50).
+board(Ohay, 'Anne Smyle').
+board(Ohay, 'Bill Seth').
+person('Muck Lain').
+board(Ohay, 'Muck Lain').
+industry(Ohay, Search).
+
+company(Gnow, 150000, 300).
+board(Gnow, 'Anne Smyle').
+board(Gnow, 'Bill Seth').
+board(Gnow, 'John Smyth').
+industry(Gnow, Search).
+
+company(Elpa, 9000000, 300).
+board(Elpa, 'John Smyth').
+board(Elpa, 'Bill Seth').
+board(Elpa, 'Muck Lain').
+industry(Elpa, Software).
+industry(Elpa, Hardware).
+Owns(Elpa, Tfos, 20000).
+Owns(Elpa, Elgog, 30000).
+
+company(Ydex, 5000000, 100).
+board(Ydex, 'May Serge').
+board(Ydex, 'Muck Lain').
+board(Ydex, 'John Smyth').
+industry(Ydex, Software).
+industry(Ydex, Search).
+
+Owns('Bill Doe', Tfos, 30000).
+Owns('Bill Doe', Elpa, 100000).
+
+Owns('Bill Seth', Gnow, 40000).
+Owns('Bill Seth', Elgog, 20000).
+
+Owns('John Smyth', QUE, 20000).
+Owns('John Smyth', RHC, 20000).
+Owns('John Smyth', Tfos, 800000).
+
+Owns('Anne Smyle', RHC, 30000).
+Owns('Anne Smyle', Tfos, 40000).
+Owns('Anne Smyle', Alf, 500000).
+
+Owns('Steve Lamp', Elpa, 90000).
+Owns('Steve Lamp', QUE, 50000).
+Owns('Steve Lamp', Ohay, 50000).
+Owns('Steve Lamp', RHC, 70000).
+
+Owns('May Serge', Elpa, -10000).
+Owns('May Serge', Ydex, -40000).
+Owns('May Serge', Alf, 500000).
+Owns('May Serge', RHC, 40000).
+
+Owns('Bill Public', Gnow, 80000).
+Owns('Bill Pubic', Elgog, 30000).
+Owns('Bill Public', QUE, 30000).
+Owns('Bill Public', Tfos, 300000).
+Owns('Bill Public', RHC, -9000).
+
+Owns('Muck Lain', RHC, 60000).
+Owns('Muck Lain', Ohay, -40000).
+Owns('Muck Lain', Ydex, -80000).
+Owns('Muck Lain', Elpa, 30000).
+
+
+
+
+// MISTAKE ALERT: Variable instead of constant
+//endorse(u8, u4, ?Programming).
+
+/*
+  User 1 endorsed User 2 and they both worked for the same organization on
+  Sep 23, 2015.
+*/
+Q1(?Name,?Shares, ?SharePrice) :-
+        company(?Name,?Shares, ?SharePrice).
+        
+Q2(?PName) :-
+        person(?PName).
+
+Q3(?OName, ?CName, ?Shares) :-
+        Owns(?OName, ?CName, ?Shares).
+		
+/*		
+Q2(?Name) :-
+    endorse(?User1, ?User2, ?Skill),
+    ?User1 != ?User2,
+    \naf skill(?User2, ?Skill),
+    user(?User1, ?Name).
+*/
+
+Q4(?CName) :-
+    company(?CName, ?, ?),
+	board(?CName, ?PName),
+	Owns(?PName, ?CName, ?Shares),
+	?Shares > 0.
+	
+Q6(?CName, ?PName) :-
+    company(?CName, ?, ?),
+	board(?CName, ?PName),
+	person(?PName),
+	?X = max{?Shares|Owns(?PName, ?CName, ?Shares)},
+	?X > 0,
+	Owns(?PName, ?CName, ?X).	
+	
+Q5(?PName, ?Net) :-
+	person(?PName),
+	?Net = sum{?x | Owns(?PName, ?CName, ?Shares), company(?CName, ?, ?SharePrice), ?Shares > 0, ?x \is (?Shares)*(?SharePrice)}.
+
+Q7(?Name1,?Name2) :-
+	company(?Name1, ?, ?),company(?Name2, ?, ?), \naf(?Name1 == ?Name2),
+	industry(?Name1, ?type),industry(?Name2, ?type),
+	board(?Name1, ?PName1),board(?Name2, ?PName2).
+	/*
+	a1 = sum{?x1 | Owns(?PName1, ?com, ?share1), ?x1 \is ?share1, ?share1 > 0},
+	a2 = sum{?x2 | Owns(?PName2, ?com, ?share2), ?x2 \is ?share2, ?share2 > 0},
+	a1 > a2.
+	*/
+// MISTAKE ALERT: Var ?Name2 not appearing in rule body
+//Q1(?Name1,?Name2) :- user(?,?Name1), user(?,?Name3).
+
+?- writeln('--- Query 1: endorsement by a co-worker ---')@\io,
+        Q1(?Name,?Shares, ?SharePrice).
+		
+?- writeln('--- Query 1: endorsement by a co-worker ---')@\io,
+        Q2(?PName).		
+		
+?- writeln('--- Query 1: endorsement by a co-worker ---')@\io,
+        Q3(?OName, ?CName, ?Shares).
+
+?- writeln('--- Query 4: endorsement by a co-worker ---')@\io,
+        Q4(?CName).	
+		
+?- writeln('--- Query 6: endorsement by a co-worker ---')@\io,
+        Q6(?CName, ?PName).
+		
+?- writeln('--- Query 5: endorsement by a co-worker ---')@\io,		
+		Q5(?PName, ?Net).
+
+?- writeln('--- Query 7: endorsement by a co-worker ---')@\io,		
+		Q7(?Name1,?Name2).
