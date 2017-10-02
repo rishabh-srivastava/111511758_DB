@@ -1,22 +1,5 @@
 
 /*
-   // describes users of LinkedOut
-   user(Id: symbol, Name: symbol)
-   Key: Id
-
-   // describes users' work experience (worked for organization, from/to)
-   experience(Id: symbol, Organization: symbol, From: date, To: date)
-   Key: Id, From, To
-
-   // describes users' declared skills
-   skill(Id: symbol, Skill: symbol)
-   Key: Id, Skill
-
-   // some users endorsed others for certain skills
-   endorse(Id: symbol, Endorsee: symbol, Skill: symbol).
-   Key: Id, Endorsee, Skill
-*/
-/*
 
 company(CName: symbol, Shares: symbol, SharePrice: symbol)
 Key: CName
@@ -68,7 +51,7 @@ Owns(QUE, Elpa, 100000).
 
 company(Elgog, 1000000, 400).
 board(Elgog, 'May Serge').
-board(Elgog, 'Bill Pubic').
+board(Elgog, 'Bill Public').
 board(Elgog, 'Steve Lamp').
 industry(Elgog, Software).
 industry(Elgog, Search).
@@ -148,33 +131,6 @@ Owns('Muck Lain', Ohay, -40000).
 Owns('Muck Lain', Ydex, -80000).
 Owns('Muck Lain', Elpa, 30000).
 
-
-
-
-// MISTAKE ALERT: Variable instead of constant
-//endorse(u8, u4, ?Programming).
-
-/*
-  User 1 endorsed User 2 and they both worked for the same organization on
-  Sep 23, 2015.
-*/
-Q1(?Name,?Shares, ?SharePrice) :-
-        company(?Name,?Shares, ?SharePrice).
-        
-Q2(?PName) :-
-        person(?PName).
-
-Q3(?OName, ?CName, ?Shares) :-
-        Owns(?OName, ?CName, ?Shares).
-		
-/*		
-Q2(?Name) :-
-    endorse(?User1, ?User2, ?Skill),
-    ?User1 != ?User2,
-    \naf skill(?User2, ?Skill),
-    user(?User1, ?Name).
-*/
-
 Q4(?CName) :-
     company(?CName, ?, ?),
 	board(?CName, ?PName),
@@ -202,18 +158,7 @@ Q7(?Name1,?Name2) :-
 	a2 = sum{?x2 | Owns(?PName2, ?com, ?share2), ?x2 \is ?share2, ?share2 > 0},
 	a1 > a2.
 	*/
-// MISTAKE ALERT: Var ?Name2 not appearing in rule body
-//Q1(?Name1,?Name2) :- user(?,?Name1), user(?,?Name3).
-
-?- writeln('--- Query 1: endorsement by a co-worker ---')@\io,
-        Q1(?Name,?Shares, ?SharePrice).
-		
-?- writeln('--- Query 1: endorsement by a co-worker ---')@\io,
-        Q2(?PName).		
-		
-?- writeln('--- Query 1: endorsement by a co-worker ---')@\io,
-        Q3(?OName, ?CName, ?Shares).
-
+	
 ?- writeln('--- Query 4: endorsement by a co-worker ---')@\io,
         Q4(?CName).	
 		
