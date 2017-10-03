@@ -35,7 +35,7 @@ person('Bill Seth').
 board(RHC, 'Bill Seth').
 person('Steve Lamp').
 board(RHC, 'Steve Lamp').
-industry(QUE, Accounting).
+industry(RHC, Accounting).
 
 company(Alf, 10000000, 700).
 person('May Serge').
@@ -43,11 +43,11 @@ board(Alf, 'May Serge').
 person('Bill Doe').
 person('Bill Public').
 board(Alf, 'Bill Public').
-industry(QUE, Software).
-industry(QUE, Automotive).
-Owns(QUE, Ydex, -100000).
-Owns(QUE, Elgog, 400000).
-Owns(QUE, Elpa, 100000).
+industry(Alf, Software).
+industry(Alf, Automotive).
+Owns(Alf, Ydex, -100000).
+Owns(Alf, Elgog, 400000).
+Owns(Alf, Elpa, 100000).
 
 company(Elgog, 1000000, 400).
 board(Elgog, 'May Serge').
@@ -121,7 +121,7 @@ Owns('May Serge', Alf, 500000).
 Owns('May Serge', RHC, 40000).
 
 Owns('Bill Public', Gnow, 80000).
-Owns('Bill Pubic', Elgog, 30000).
+Owns('Bill Public', Elgog, 30000).
 Owns('Bill Public', QUE, 30000).
 Owns('Bill Public', Tfos, 300000).
 Owns('Bill Public', RHC, -9000).
@@ -149,15 +149,13 @@ Q5(?PName, ?Net) :-
 	person(?PName),
 	?Net = sum{?x | Owns(?PName, ?CName, ?Shares), company(?CName, ?, ?SharePrice), ?Shares > 0, ?x \is (?Shares)*(?SharePrice)}.
 
-Q7(?Name1,?Name2) :-
-	company(?Name1, ?, ?),company(?Name2, ?, ?), \naf(?Name1 == ?Name2),
-	industry(?Name1, ?type),industry(?Name2, ?type),
-	board(?Name1, ?PName1),board(?Name2, ?PName2).
-	/*
-	a1 = sum{?x1 | Owns(?PName1, ?com, ?share1), ?x1 \is ?share1, ?share1 > 0},
-	a2 = sum{?x2 | Owns(?PName2, ?com, ?share2), ?x2 \is ?share2, ?share2 > 0},
-	a1 > a2.
-	*/
+Company(?Name, ?type, ?PName) :-
+	((company(?Name, ?, ?),industry(?Name, ?type)), board(?Name, ?PName)).
+
+Q7(?Name1, ?Name2) :-
+	(Company(?Name1, ?type1, ?PName1), Company(?Name2, ?type2, ?PName2)),
+	?type1 == ?type2,
+	\naf(?Name1 == ?Name2).
 	
 ?- writeln('--- Query 4: endorsement by a co-worker ---')@\io,
         Q4(?CName).	
@@ -169,4 +167,5 @@ Q7(?Name1,?Name2) :-
 		Q5(?PName, ?Net).
 
 ?- writeln('--- Query 7: endorsement by a co-worker ---')@\io,		
-		Q7(?Name1,?Name2).
+		Q7(?Name1, ?Name2).
+		
