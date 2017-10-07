@@ -160,20 +160,21 @@ Q4(?Name1, ?Name2) :-
 	
 directly_own(?Name1,?Name2, ?X) :-
 		person(?Name1), Owns(?Name1, ?Name2, ?p_share),
-		//?p_share > 0,
+		?p_share > 0,
 		\naf(?Name1 == ?Name2),
 		company(?Name2, ?c_share, ?),
 		?X \is ((?p_share / ?c_share) * 100).
 
 indirectly_own(?Name1,?Name2, ?X) :-
-		directly_own(?Name1,?Name2, ?X);
-		(directly_own(?Name1,?Name3, ?X1),
+		directly_own(?Name1,?Name2, ?X).
+indirectly_own(?Name1,?Name2, ?X) :-		
+		directly_own(?Name1,?Name3, ?X1),
         indirectly_own(?Name3,?Name2, ?X2),
-		?X \is (?X1 * ?X2)).
+		?X \is (?X1 * ?X2).
 	
 Q5(?PName, ?CName, ?T) :-
 	//directly_own(?PName, ?CName, ?X1),
-	?T = sum{?A[?PName, ?CName] | indirectly_own(?PName, ?CName, ?X), ?A = ?X},
+	?T = sum{?X[?PName, ?CName] | indirectly_own(?PName, ?CName, ?X)},
 	?T > 10.
 	
 
@@ -190,5 +191,5 @@ Q5(?PName, ?CName, ?T) :-
         Q4(?Name1, ?Name2).
 
 ?- writeln('--- Query 5: Percentage of ownership ---')@\io,		
-		Q5(?PName, ?CName, ?X).
+		Q5(?PName, ?CName, ?T).
 		
